@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Lato:wght@300&display=swap');
+
+.aboutMe {
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+    margin-top: 5rem;
+    background-color: #0a021b;
+    color: #fff;
+    font-family: Barlow Condensed;
+   
+    text-align: center;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText {
+    width: 80%;
+}

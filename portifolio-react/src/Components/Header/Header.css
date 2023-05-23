@@ -1,0 +1,48 @@
+.portifolio-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.portifolio-header h1 {
+    font-size: 30px;
+}
+
+.line {
+    width: 55px;
+    border: 2px solid #0a021b;
+    border-radius: 5px;
+    animation: gow-line 2s;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+}
+
+#links li {
+    cursor: pointer;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+#links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+@keyframes gow-line {
+    from {
+        width: 1px;
+    }
+    to {
+        width: 100px;
+    }
+}
