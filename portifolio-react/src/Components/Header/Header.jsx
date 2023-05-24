@@ -9,10 +9,10 @@ const Header =()=> {
             <div className="line"></div>
           </div>
           <div id='links'>
-            <ul><li><a href="index.html">Home</a></li></ul>
-            <ul><li><a href="#about">Sobre</a></li></ul>
-            <ul><li><a href="#projects">Projetos</a></li></ul>
-            <ul><li><a href="#contact">Contato</a></li></ul>
+            <ul><li id="home"><a href="index.html">Home</a></li></ul>
+            <ul><li id="sobre"><a href="#about">Sobre</a></li></ul>
+            <ul><li id="projeto"><a href="#projects">Projetos</a></li></ul>
+            <ul><li id="contato"><a href="#contact">Contato</a></li></ul>
           </div>
         </div>
     )

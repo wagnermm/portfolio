@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Lato:wght@300&display=swap');
+
+.main-project {
+    margin-top: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-project h1 {
+    color: #0a021b;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Barlow Condensed;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 10px;
+}
+
+.project {
+    width: 25%;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #0a021b;
+    box-shadow: 1px 2px 2px #000000;
+}
