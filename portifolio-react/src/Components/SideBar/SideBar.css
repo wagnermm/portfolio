@@ -19,8 +19,16 @@
     letter-spacing: 1px;
 }
 
+.infoText h2 {
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end) infinite; 
+}
+
 .infoText p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 img {
@@ -31,3 +39,42 @@ img {
 .title {
     font-weight: bold;
 }
+
+.main-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linkedin, .github {
+    background-color: #0a021b;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.linkedin:hover, .github:hover {
+    background-image: linear-gradient(to left, #d43434, #0a021b);
+}
+
+.linkedin a:visited, .github a:visited {
+    color: #fff;
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 

@@ -8,14 +8,14 @@
 }
 
 .portifolio-header h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .line {
     width: 55px;
     border: 2px solid #0a021b;
     border-radius: 5px;
-    animation: gow-line 2s;
+    animation: gow-line 5s linear;
 }
 
 #links {
@@ -39,10 +39,19 @@ a:hover {
 }
 
 @keyframes gow-line {
-    from {
-        width: 1px;
+    0% {
+        width: 0;
     }
-    to {
+    30% {
+        width: 50px;
+    }
+    50% {
         width: 100px;
+    }
+    75% {
+        width: 50px;
+    }
+    100% {
+        width: 0;
     }
 }

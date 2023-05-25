@@ -8,7 +8,7 @@ const Projects=()=> {
             <div className="project-cards" id="projects">
 
                 <div className="project">
-                    
+            
                 </div>
                 <div className="project">
 

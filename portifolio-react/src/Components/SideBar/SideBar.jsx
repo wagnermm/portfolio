@@ -1,19 +1,31 @@
 import React from "react";
-import './SideBar.css'
-import Avatar from '../Images/wagner.jpg'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Avatar from '../Images/wagner.jpg';
+
+import './SideBar.css';
 
 const SideBar =()=> {
     return(      
-        <div id="sidebar">
+        <aside id="sidebar">
             <div className="profile">
                 <p><img src={Avatar} alt="Wagner Miranda" /></p>
-                <p className="title">Desenvolveor Web</p>
+                <p className="title">Desenvolveor Front-end</p>
+                <div className="main-social">
+                    <div className="socials">
+                        <div className="linkedin">
+                            <a href="https://www.linkedin.com/in/wagner-miranda-204524252" target="blank"><FaLinkedin/></a>
+                        </div>
+                        <div className="github">
+                            <a href="https://github.com/wagnermm" target="blank"><FaGithub/></a>
+                        </div>     
+                    </div>
+                </div>
             </div>
             <div className="infoText">
                 <h2>Olá, eu sou Wagner Miranda e bem vindo ao meu portifólio.</h2>
                 <p>Sou um desenvolvedor web e trabalho com React.Js. Tenho desenvolvido alguns projetos que você poderá conferir nesta página.</p>
             </div>
-        </div> 
+        </aside> 
     )
 }
 
