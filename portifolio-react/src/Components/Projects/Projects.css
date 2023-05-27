@@ -28,3 +28,16 @@
     border: 1px solid #0a021b;
     box-shadow: 1px 2px 2px #000000;
 }
+
+.project:hover {
+    cursor: pointer;
+    animation: animation-cards 3s linear;
+}
+
+@keyframes animation-cards {
+    0% {width: 25%; height: 200px;}
+
+    50% {width: 24%; height: 190px;}
+
+    100% {width: 25%; height: 200px;}
+}

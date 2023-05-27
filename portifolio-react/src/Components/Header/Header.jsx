@@ -1,7 +1,9 @@
 import React from "react";
 import './Header.css'
+import 'bootstrap'
 
 const Header =()=> {
+  
     return(
         <div className="portifolio-header">
           <div>

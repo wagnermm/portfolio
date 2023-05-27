@@ -20,7 +20,6 @@
 }
 
 .infoText h2 {
-  margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
@@ -69,12 +68,6 @@ img {
     color: #fff;
 }
 
-@keyframes type{ 
+@keyframes type {
     from { width: 0; } 
-  } 
-  
-  @keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
   } 

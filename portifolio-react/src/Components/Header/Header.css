@@ -38,20 +38,45 @@ a:hover {
     text-shadow: 1px 1px 1px #fff;
 }
 
-@keyframes gow-line {
-    0% {
-        width: 0;
+@keyframes gow-line{
+    0% { width: 0; }
+
+    30% { width: 50px; }
+        
+    50% { width: 100px; }
+        
+    75% { width: 50px; }
+        
+    100% { width: 0; }
+}
+
+@media (max-width: 480px) {
+    .portifolio-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    30% {
-        width: 50px;
+    .portifolio-header h1 {
+        font-size: 30px;
     }
-    50% {
-        width: 100px;
+    #links li {
+        font-size: 12px;
     }
-    75% {
-        width: 50px;
-    }
-    100% {
-        width: 0;
-    }
+}
+
+.navbar-toggler-icon {
+	background-image: none;
+}
+.navbar-toggler {
+	border-color: rgb(100, 99, 184);
+	background-color: rgb(100, 99, 184);	
+	height: 50px;
+	outline: none;
+}
+.navbar-toggler-icon:after {
+	content: '\f0c9';
+	color: #fff;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: 'FontAwesome';
 }

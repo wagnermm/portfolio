@@ -53,3 +53,17 @@
     width: 35%;
     border: 1px solid #fff;
 }
+
+.tecnologies-box img:hover {
+    cursor: pointer;
+    top:-2px;box-shadow:0 2px 2px #666;
+    animation: animation-img linear 5s;
+}
+
+@keyframes animation-img {
+    0% {width: 35%;}
+
+    50% {width: 30%;}
+
+    100% {width: 35%;}
+}
