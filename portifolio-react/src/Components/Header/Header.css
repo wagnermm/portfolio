@@ -18,9 +18,11 @@
     animation: gow-line 5s linear;
 }
 
-#links {
+.list-items {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 #links li {
@@ -54,29 +56,34 @@ a:hover {
     .portifolio-header {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
     .portifolio-header h1 {
         font-size: 30px;
     }
     #links li {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
-.navbar-toggler-icon {
-	background-image: none;
+@media (max-width: 720px) {
+    .portifolio-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portifolio-header h1 {
+        font-size: 35px;
+    }
 }
-.navbar-toggler {
-	border-color: rgb(100, 99, 184);
-	background-color: rgb(100, 99, 184);	
-	height: 50px;
-	outline: none;
-}
-.navbar-toggler-icon:after {
-	content: '\f0c9';
-	color: #fff;
-	font-size: 22px;
-	line-height: 30px;
-	font-family: 'FontAwesome';
+
+@media (max-width: 1024px) {
+    .portifolio-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portifolio-header h1 {
+        font-size: 40px;
+    }
 }

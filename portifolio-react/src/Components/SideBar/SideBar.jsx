@@ -6,7 +6,7 @@ import './SideBar.css';
 
 const SideBar =()=> {
     return(      
-        <aside id="sidebar">
+        <aside className="sidebar">
             <div className="profile">
                 <p><img src={Avatar} alt="Wagner Miranda" /></p>
                 <p className="title">Desenvolveor Front-end</p>

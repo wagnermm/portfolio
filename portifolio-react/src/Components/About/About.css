@@ -67,3 +67,34 @@
 
     100% {width: 35%;}
 }
+
+@media (max-width: 720px) {
+    .aboutMe {
+        padding: 5px;
+        font-size: 18px;
+    }
+    .aboutText {
+        width: 90%;
+    }
+    .lineTitle {
+        width: 40%;
+    }
+    .tecnologies-box {
+        width: 100%;
+    }
+    .tecnologies-box img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lineTitle {
+        width: 40%;
+    }
+    .tecnologies-box {
+        width: 100%;
+    }
+    .tecnologies-box img {
+        width: 250px;
+    }
+}
