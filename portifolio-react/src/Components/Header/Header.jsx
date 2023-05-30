@@ -1,31 +1,32 @@
 import { useState } from 'react';
-import './Header.css'
-import 'bootstrap'
+import './Header.css';
 
 const Header =()=> {
-    const {active, setMode} = useState(false)
-    const toggleMode =()=> {
-      setMode(!active)
-    }
+    const [active, setActive] = useState("nav__menu");
+    const [toggleIcon, setToggleIcon] = useState("nav__toggler")
+    const navToggle = ()=> { 
+      active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu')
+      toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler')
+    };
     return(
         <div className="portifolio-header">
           <div>
             <h1>Wagner Miranda</h1>
-            <div className="line"></div>
+            <div className="lineTitleDown"></div>
           </div>
-          <div className={active ? 'icon iconActive' : 'icon'}onClick={toggleMode}>
-              <div className="hamburguerIcon"></div>
-          </div>
-          <div className={active ? 'menuOpen' : 'menuClose'}>
-            <div id='links'>
-              <ul className="list-items">
-                <li id="home"><a href="index.html">Home</a></li>
-                <li id="sobre"><a href="#about">Sobre</a></li>
-                <li id="projeto"><a href="#projects">Projetos</a></li>
-                <li id="contato"><a href="#contact">Contato</a></li>
-              </ul>
+          <nav className='nav'>
+            <ul className={active}>
+              <li className='nav__item' id="home"><a href="index.html">Home</a></li>
+              <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
+              <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
+              <li className='nav__item' id="contato"><a href="#contact">Contato</a></li>
+            </ul>
+            <div onClick={navToggle} className={toggleIcon}>
+                <div className='line1'></div>
+                <div className='line2'></div>
+                <div className='line3'></div>
             </div>
-          </div>
+          </nav>
         </div>
     )
 }

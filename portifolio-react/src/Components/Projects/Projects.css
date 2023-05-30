@@ -44,14 +44,6 @@
     height: 200px;
 }
 
-@keyframes animation-cards {
-    0% {width: 25%; height: 200px;}
-
-    50% {width: 24%; height: 190px;}
-
-    100% {width: 25%; height: 200px;}
-}
-
 @media (max-width: 720px) {
     .main-project {
         margin-top: 1rem;
