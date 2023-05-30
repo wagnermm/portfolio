@@ -15,7 +15,7 @@
 .infoText {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     letter-spacing: 1px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 img {
-    width: 50%;
+    width: 40%;
     box-shadow: 10px 5px 20px #000000;
 }
 
@@ -72,7 +72,7 @@ img {
     from { width: 0; } 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
     .sidebar {
         width: 100%;
         margin-top: 1rem;
@@ -91,7 +91,7 @@ img {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .sidebar {
         width: 100%;
         margin-top: 1rem;

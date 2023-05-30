@@ -39,9 +39,27 @@
     padding: 5px;
 }
 
-a:hover {
+.portifolio-header a:hover {
     text-shadow: 1px 1px 1px #fff;
     border-bottom: 3px solid #0a021b;
+}
+
+.nav__contact {
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    background: rgb(10, 2, 27);
+    transform: translateX(100%);
+    transition: 0.5 ease-in;
+}
+
+.contact__active {
+    transform: translateX(0);    
 }
 
 .nav__toggler div{

@@ -17,12 +17,12 @@ const SideBar =()=> {
                         </div>
                         <div className="github">
                             <a href="https://github.com/wagnermm" target="blank"><FaGithub/></a>
-                        </div>     
+                        </div>  
                     </div>
                 </div>
             </div>
             <div className="infoText">
-                <h2>Olá, eu sou Wagner Miranda e bem vindo ao meu portifólio.</h2>
+                <h2>Olá, eu sou Wagner Miranda!</h2>
                 <p>Sou um desenvolvedor web e trabalho com React.Js. Tenho desenvolvido alguns projetos que você poderá conferir nesta página.</p>
             </div>
         </aside> 

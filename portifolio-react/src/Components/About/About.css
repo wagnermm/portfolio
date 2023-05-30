@@ -68,7 +68,7 @@
     100% {width: 35%;}
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .aboutMe {
         padding: 5px;
         font-size: 18px;
