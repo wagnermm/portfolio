@@ -6,6 +6,7 @@
     align-items: center;
     justify-content:space-between;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .profile {
@@ -21,7 +22,7 @@
 
 .infoText h2 {
   white-space: nowrap;
-  overflow: hidden;
+  overflow-x: hidden;
   width: 30em;
   animation: type 4s steps(60, end) infinite; 
 }
@@ -74,7 +75,7 @@ img {
 
 @media (max-width: 480px){
     .sidebar {
-        width: 100%;
+      
         margin-top: 1rem;
         padding: 0;
         display: flex;
@@ -88,6 +89,7 @@ img {
     }
     .infoText h2 {
         font-size: 16px;
+        overflow-wrap: break-word;
     }
 }
 

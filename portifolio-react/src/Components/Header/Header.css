@@ -39,7 +39,7 @@
     padding: 5px;
 }
 
-.portifolio-header a:hover {
+.nav a:hover {
     text-shadow: 1px 1px 1px #fff;
     border-bottom: 3px solid #0a021b;
 }
@@ -125,7 +125,7 @@
         transform: translateX(100%);
         transition: 0.5 ease-in;
     }
-    a:hover {
+    .nav a:hover {
         border-bottom: 3px solid #fa4545;
     }
     .nav__toggler {
