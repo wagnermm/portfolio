@@ -49,7 +49,7 @@ const About =()=> {
                 <div className="tecnologies-box">
                     <h5>ReactJs</h5>
                     <img src={Rct} alt="react" />
-                    <p> Tendo inicio em 2023, com React pude criar projetos mais elaborados e melhores organizados através dos components, como calculadora, e-commerce, shopping-car e forms</p>
+                    <p> Tendo inicio em 2023, com React pude criar projetos mais elaborados e melhores organizados através do jsx, components e hooks, como calculadora, forms e shopping cart.</p>
                 </div>
             </div>
         </div>

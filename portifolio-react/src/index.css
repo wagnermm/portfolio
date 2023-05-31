@@ -6,9 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, rgba(250,69,69,1) 0%, rgba(104,28,52,1) 35%, rgba(10,2,27,1) 100%);
+  background: radial-gradient(circle, rgb(104, 28, 52) 0%, rgba(7,1,21,1) 100%);
   overflow-x: hidden;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 code {

@@ -45,6 +45,24 @@
     height: 200px;
 }
 
+@media (max-width: 480px) {
+    .main-project {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 10px;
+    }
+    .main-project h1 {
+        font-size: 40px;
+    }
+    .project {
+        width: 70% !important;
+    }
+    .project img {
+        height: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .main-project {
         margin-top: 1rem;

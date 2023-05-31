@@ -22,11 +22,6 @@
     text-shadow: 1px 2px 2px #000000;
 }
 
-.lineTitle {
-    border-bottom: 2px solid #fa4545;
-    width: 20%;
-}
-
 .tecnologies {
     width: 80%;
     padding: 20px;
@@ -79,9 +74,6 @@
     .aboutText {
         width: 90%;
     }
-    .lineTitle {
-        width: 40%;
-    }
     .tecnologies-box {
         width: 100%;
     }
@@ -91,9 +83,6 @@
 }
 
 @media (max-width: 1024px) {
-    .lineTitle {
-        width: 40%;
-    }
     .tecnologies-box {
         width: 100%;
     }

@@ -5,6 +5,7 @@
     justify-content: space-around;
     color: #fff;
     font-weight: bolder;
+    overflow-x: hidden;
 }
 
 .portifolio-header h1 {
@@ -13,7 +14,7 @@
 
 .lineTitleDown {
     width: 55px;
-    border: 2px solid #0a021b;
+    border: 2px solid #681c34;
     border-radius: 5px;
     animation: gow-line 5s linear;
 }
@@ -41,7 +42,7 @@
 
 .nav a:hover {
     text-shadow: 1px 1px 1px #fff;
-    border-bottom: 3px solid #0a021b;
+    border-bottom: 3px solid #fff;
 }
 
 .nav__contact {
@@ -121,12 +122,12 @@
         right: 0;
         width: 30%;
         height: 60vh;
-        background: rgba(10, 2, 27, 0.6);
+        background: radial-gradient(circle, rgba(104, 28, 52, 0.5) 0%, rgba(7,1,21,1) 100%);
         transform: translateX(100%);
         transition: 0.5 ease-in;
     }
     .nav a:hover {
-        border-bottom: 3px solid #fa4545;
+        border: none;
     }
     .nav__toggler {
         display: block;
