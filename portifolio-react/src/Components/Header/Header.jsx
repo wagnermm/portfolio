@@ -25,7 +25,7 @@ const Header =()=> {
               <li className='nav__item' id="home"><a href="index.html">Home</a></li>
               <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
               <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
-              <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato <div className={contactInfo}><BsWhatsapp/> (41)9 8495-5509 <AiOutlineClose/></div></a></li>
+              <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato <div className={contactInfo}><BsWhatsapp/> (41)9 8495-5509<br/><AiOutlineClose/></div></a></li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className='line1'></div>

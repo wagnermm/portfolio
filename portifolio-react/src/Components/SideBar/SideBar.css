@@ -62,7 +62,7 @@ img {
 }
 
 .linkedin:hover, .github:hover {
-    background-image: linear-gradient(to left, #d43434, #0a021b);
+    background-image: linear-gradient(to left, #681c34, #0a021b);
 }
 
 .linkedin a:visited, .github a:visited {

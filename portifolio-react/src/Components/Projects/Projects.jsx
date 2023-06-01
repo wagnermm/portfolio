@@ -1,5 +1,7 @@
 import './Projects.css';
 import BarberLogo from '../Images/logo.jpg';
+import Calculator from '../Images/calculator.png'
+import Cake from '../Images/cake.gif'
 
 
 const Projects=()=> {
@@ -11,10 +13,10 @@ const Projects=()=> {
                     <a href="http://" target="_blank" rel="noopener noreferrer"><img src={BarberLogo} alt="logo" /></a>
                 </div>
                 <div className="project">
-            
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Calculator} alt="logo" /></a>
                 </div>
                 <div className="project">
-
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Cake} alt="cake"/></a>
                 </div>
                 <div className="project">
 
