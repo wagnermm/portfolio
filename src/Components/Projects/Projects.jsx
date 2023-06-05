@@ -33,7 +33,7 @@ const Projects=()=> {
                 <div className="project-content">
                     <div className="project-link">
                         <h3>Calculator</h3>
-                        <a href="" target='blank'><img src={CalculatorImg} alt="calculadora" /></a>
+                        <a href=" https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora" /></a>
                     </div>
                 </div>
                 <div className="project-content">

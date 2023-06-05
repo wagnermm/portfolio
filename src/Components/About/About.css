@@ -51,21 +51,6 @@
     border-radius: 5px;
 }
 
-.tecnologies-box img:hover {
-    cursor: pointer;
-    top:-2px;box-shadow:0 2px 2px #666;
-    animation: animation-img linear 5s;
-    border-radius: 0;
-}
-
-@keyframes animation-img {
-    0% {width: 35%;}
-
-    50% {width: 30%;}
-
-    100% {width: 35%;}
-}
-
 @media (max-width: 768px) {
     .aboutMe {
         padding: 5px;

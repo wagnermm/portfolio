@@ -36,7 +36,7 @@
 }
 
 .project-link {
-    color: #681c34;
+    color: rgba(7,1,21,1);
     font-weight: 600;
     display: flex;
     flex-direction: column;
