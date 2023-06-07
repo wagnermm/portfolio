@@ -13,7 +13,7 @@ const SideBar =()=> {
                 <div className="main-social">
                     <div className="socials">
                         <div className="linkedin">
-                            <a href="https://www.linkedin.com/in/wagner-miranda-204524252" target="blank"><FaLinkedin/></a>
+                            <a href="https://www.linkedin.com/in/wagner-mm/" target="blank"><FaLinkedin/></a>
                         </div>
                         <div className="github">
                             <a href="https://github.com/wagnermm" target="blank"><FaGithub/></a>
