@@ -43,6 +43,7 @@
 .nav a:hover {
     text-shadow: 1px 1px 1px #fff;
     border-bottom: 3px solid #fff;
+    transition: all .3s ease-in-out;
 }
 
 .nav__contact {

@@ -3,6 +3,7 @@ import LogoConfectonery from '../Images/confectonery.png';
 import Mario from '../Images/mario.gif';
 import LogoBarberShop from '../Images/logo.jpg';
 import CalculatorImg from '../Images/calculator.png';
+import TelaLogin from '../Images/telalogin.png';
 
 
 const Projects=()=> {
@@ -33,11 +34,14 @@ const Projects=()=> {
                 <div className="project-content">
                     <div className="project-link">
                         <h3>Calculator</h3>
-                        <a href=" https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora" /></a>
+                        <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora" /></a>
                     </div>
                 </div>
                 <div className="project-content">
-
+                <div className="project-link">
+                        <h3>Tela de Login</h3>
+                        <a href="https://wagnermm.github.io/form-css/" target='blank'><img src={TelaLogin} alt="Telalogin" /></a>
+                    </div>
                 </div>
                 <div className="project-content">
                     
