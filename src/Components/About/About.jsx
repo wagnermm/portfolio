@@ -14,7 +14,7 @@ const About =()=> {
             <h1 className="lineTitle">Sobre mim</h1>
             <p>Desde cedo sempre gostei de tecnologia e entender como as coisas funcionavam, quando meu 
             computador tinha problemas por exemplo, queria tentar resolver de forma lógica.
-            Mas apesar de tudo, não segui carreira de imediato ao ivés disso fui por outro camiho.
+            Mas apesar de tudo, não segui carreira de imediato ao invés disso fui por outro caminho.
             Alguns anos depois com mudanças no mundo tecnológico e conhecendo pessoas da área de TI,  percebi que havia uma paixão interna por algo que já conhecia antes, algo que pudesse me satisfazer e me desafiar profissionalmente, algo que me fizesse crescer. Com isso descobri minha vocação como web developer. A partir daí, criei meu plano de carreira que passava antes por um plano de estudos.
             Hoje tenho desenvolvido algumas web pages para pequenas empresas de amigos e isso tem me ajudado a me desenvolver como profissional, mais ainda busco uma oportunidade em uma grande empresa onde eu possa demonstrar toda a minha paixão por essa profissão e compartilhar conhecimentos com novas pessoas.
             </p>
