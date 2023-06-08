@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.14111018.css",
+    "main.js": "/portifolio/static/js/main.c197931a.js",
+    "static/js/787.aae35923.chunk.js": "/portifolio/static/js/787.aae35923.chunk.js",
+    "static/media/html.jpg": "/portifolio/static/media/html.07ccd49b8e859eb3b953.jpg",
+    "static/media/wagner.jpg": "/portifolio/static/media/wagner.4221df2c0d7e7b393e7c.jpg",
+    "static/media/bootstrap.png": "/portifolio/static/media/bootstrap.21c4b8805fff51b47615.png",
+    "static/media/logo.jpg": "/portifolio/static/media/logo.98a48dbe89f27ee58a31.jpg",
+    "static/media/js.png": "/portifolio/static/media/js.94c944348b72697d358d.png",
+    "static/media/confectonery.png": "/portifolio/static/media/confectonery.c19bb17ab3b42007bfae.png",
+    "static/media/css.jpg": "/portifolio/static/media/css.0423886c3f93afa39e2e.jpg",
+    "static/media/telalogin.png": "/portifolio/static/media/telalogin.587d00a1a8b715c21c1a.png",
+    "static/media/mario.gif": "/portifolio/static/media/mario.b481b80877cb6f0c66ad.gif",
+    "static/media/node.jpg": "/portifolio/static/media/node.74576ea4f2775c3d0206.jpg",
+    "static/media/calculator.png": "/portifolio/static/media/calculator.9a1fd0fdb1870dc07686.png",
+    "static/media/react.jfif": "/portifolio/static/media/react.2053f78f1d04604e5991.jfif",
+    "index.html": "/portifolio/index.html",
+    "main.14111018.css.map": "/portifolio/static/css/main.14111018.css.map",
+    "main.c197931a.js.map": "/portifolio/static/js/main.c197931a.js.map",
+    "787.aae35923.chunk.js.map": "/portifolio/static/js/787.aae35923.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14111018.css",
+    "static/js/main.c197931a.js"
+  ]
+}
