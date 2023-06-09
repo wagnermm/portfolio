@@ -5,6 +5,7 @@ import LogoBarberShop from '../Images/logo.jpg';
 import CalculatorImg from '../Images/calculator.png';
 import TelaLogin from '../Images/telalogin.png';
 import PHlogo from '../Images/ph.png';
+import Imc from '../Images/imc.png';
 
 
 const Projects=()=> {
@@ -52,7 +53,8 @@ const Projects=()=> {
                 </div>
                 <div className="project-content">
                     <div className="project-link">
-                        
+                    <h3>Calculadora IMC</h3>
+                        <a href=" https://wagnermm.github.io/IMC/" target='blank'><img src={Imc} alt="imc" /></a>
                     </div>
                 </div>
                 <div className="project-content">
