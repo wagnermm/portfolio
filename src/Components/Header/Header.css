@@ -76,6 +76,10 @@
     display: none;
 }
 
+.close__menu {
+    display: none;
+}
+
 @keyframes gow-line{
     0% { width: 0; }
 
@@ -120,11 +124,17 @@
         position: fixed;
         top: 7vh;
         right: 0;
-        width: 30%;
-        height: 60vh;
-        background: radial-gradient(circle, rgba(104, 28, 52, 0.5) 0%, rgba(7,1,21,1) 100%);
+        width: 70vw;
+        height: 100vh;
+        font-size: 1.4rem;
+        background: rgba(7,1,21,0.6);
         transform: translateX(100%);
         transition: 0.5 ease-in;
+    }
+    .nav__menu li {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        text-align: center;
     }
     .nav a:hover {
         border: none;
@@ -143,6 +153,17 @@
     }
     .toggle .line3 {
         transform: rotate(45deg) translate(-4px, -5px);
+    }
+    .close__menu {
+        display: flex;
+        position: absolute;
+        top: 5vh;
+        right: 0;
+        padding: 1rem;
+        background-color: #681c34;
+    }
+    .close__menu:hover {
+        background-color: #781232; 
     }
 }
 

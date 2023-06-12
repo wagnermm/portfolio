@@ -14,6 +14,10 @@ const Header =()=> {
     const navContact = ()=> {
       contactInfo === 'nav__contact' ? setContactInfo('nav__contact contact__active') : setContactInfo('nav__contact');
     }
+    const [close, setClose] = useState(0)
+    const closeMenu=()=> {
+      close === 0 ? setClose('nav__menu nav__active') : setClose(0)
+    }
     return(
         <div className="portifolio-header">
           <div>
@@ -22,6 +26,7 @@ const Header =()=> {
           </div>
           <nav className='nav'>    
             <ul className={active}>
+              <div onClick={closeMenu} className="close__menu">X</div>
               <li className='nav__item' id="home"><a href="index.html">Home</a></li>
               <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
               <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
