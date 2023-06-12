@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.eb05949e.css",
-    "main.js": "/portifolio/static/js/main.0baa64be.js",
+    "main.css": "/portifolio/static/css/main.afd4450f.css",
+    "main.js": "/portifolio/static/js/main.01569d4f.js",
     "static/js/787.aae35923.chunk.js": "/portifolio/static/js/787.aae35923.chunk.js",
     "static/media/html.jpg": "/portifolio/static/media/html.07ccd49b8e859eb3b953.jpg",
     "static/media/wagner.jpg": "/portifolio/static/media/wagner.4221df2c0d7e7b393e7c.jpg",
@@ -12,17 +12,18 @@
     "static/media/css.jpg": "/portifolio/static/media/css.0423886c3f93afa39e2e.jpg",
     "static/media/telalogin.png": "/portifolio/static/media/telalogin.587d00a1a8b715c21c1a.png",
     "static/media/mario.gif": "/portifolio/static/media/mario.b481b80877cb6f0c66ad.gif",
+    "static/media/webstore.jpg": "/portifolio/static/media/webstore.31d42f77285a9265c727.jpg",
     "static/media/imc.png": "/portifolio/static/media/imc.efd809e3c644a96cc8f9.png",
     "static/media/node.jpg": "/portifolio/static/media/node.74576ea4f2775c3d0206.jpg",
     "static/media/calculator.png": "/portifolio/static/media/calculator.9a1fd0fdb1870dc07686.png",
     "static/media/react.jfif": "/portifolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portifolio/index.html",
-    "main.eb05949e.css.map": "/portifolio/static/css/main.eb05949e.css.map",
-    "main.0baa64be.js.map": "/portifolio/static/js/main.0baa64be.js.map",
+    "main.afd4450f.css.map": "/portifolio/static/css/main.afd4450f.css.map",
+    "main.01569d4f.js.map": "/portifolio/static/js/main.01569d4f.js.map",
     "787.aae35923.chunk.js.map": "/portifolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb05949e.css",
-    "static/js/main.0baa64be.js"
+    "static/css/main.afd4450f.css",
+    "static/js/main.01569d4f.js"
   ]
 }
