@@ -10,13 +10,15 @@ const Header =()=> {
       active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu')
       toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler')
     };
-    const [contactInfo, setContactInfo] = useState("nav__contact");
+    const [contactInfo, setContactInfo] = useState("contact__hide");
     const navContact = ()=> {
-      contactInfo === 'nav__contact' ? setContactInfo('nav__contact contact__active') : setContactInfo('nav__contact');
+      contactInfo === 'contact__hide' ? setContactInfo('contact__show') : setContactInfo('contact__hide');
     }
-    const [close, setClose] = useState(0)
+    const [close, setClose] = useState("menu__close");
     const closeMenu=()=> {
-      close === 0 ? setClose('nav__menu nav__active') : setClose(0)
+      close === "menu__close" ? setClose('menu__close nav__active') : setClose("menu__close");
+      active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+      toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler');
     }
     return(
         <div className="portifolio-header">
@@ -24,13 +26,15 @@ const Header =()=> {
             <h1>Wagner Miranda</h1>
             <div className="lineTitleDown"></div>
           </div>
-          <nav className='nav'>    
+          <nav className="nav">    
             <ul className={active}>
-              <div onClick={closeMenu} className="close__menu">X</div>
-              <li className='nav__item' id="home"><a href="index.html">Home</a></li>
-              <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
-              <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
-              <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato <div className={contactInfo}><BsWhatsapp/> (41)9 8495-5509<br/><AiOutlineClose/></div></a></li>
+            <div onClick={closeMenu} className="close__menu">X</div>
+              <div className={close}>
+                <li className='nav__item' id="home"><a href="index.html">Home</a></li>
+                <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
+                <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
+                <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato <div className={contactInfo}><BsWhatsapp/> (41)9 8495-5509<br/><AiOutlineClose/></div></a></li>
+              </div>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className='line1'></div>
