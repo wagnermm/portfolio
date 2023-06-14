@@ -55,6 +55,7 @@ img {
 
 .linkedin, .github {
     background-color: #0a021b;
+    color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
     cursor: pointer;

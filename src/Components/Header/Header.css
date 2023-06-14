@@ -127,7 +127,7 @@
         width: 70vw;
         height: 100vh;
         font-size: 1.4rem;
-        background: rgba(7,1,21,0.6);
+        background: rgba(7,1,21,0.9);
         transform: translateX(100%);
         transition: 0.5 ease-in;
     }
