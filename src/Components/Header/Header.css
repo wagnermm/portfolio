@@ -9,14 +9,7 @@
 }
 
 .portifolio-header h1 {
-    font-size: 40px;
-}
-
-.lineTitleDown {
-    width: 55px;
-    border: 2px solid #681c34;
-    border-radius: 5px;
-    animation: gow-line 5s linear;
+    font-size: 3.2rem;
 }
 
 .nav__menu, .menu__close {
@@ -42,7 +35,7 @@
 
 .nav a:hover {
     text-shadow: 1px 1px 1px #fff;
-    border-bottom: 3px solid #fff;
+    border-bottom: 2px solid #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -78,18 +71,6 @@
 
 .close__menu {
     display: none;
-}
-
-@keyframes gow-line{
-    0% { width: 0; }
-
-    30% { width: 50px; }
-        
-    50% { width: 100px; }
-        
-    75% { width: 50px; }
-        
-    100% { width: 0; }
 }
 
 @media (max-width: 480px) {

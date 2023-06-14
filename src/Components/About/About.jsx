@@ -1,11 +1,10 @@
-import React from "react";
 import './About.css';
-import Html from '../Images/html.jpg'
-import Css from '../Images/css.jpg'
-import Js from '../Images/js.png'
-import Node from '../Images/node.jpg'
-import Bootstrap from '../Images/bootstrap.png'
-import Rct from '../Images/react.jfif'
+import Html from '../Images/html.jpg';
+import Css from '../Images/css.jpg';
+import Js from '../Images/js.png';
+import Node from '../Images/node.jpg';
+import Bootstrap from '../Images/bootstrap.png';
+import Rct from '../Images/react.jfif';
 
 const About =()=> {
     return(
