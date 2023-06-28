@@ -34,7 +34,7 @@
 }
 
 .nav a:hover {
-    text-shadow: 1px 1px 1px #fff;
+    text-shadow: 1px 1px #fff;
     border-bottom: 2px solid #fff;
     transition: all .3s ease-in-out;
 }

@@ -7,6 +7,7 @@ import TelaLogin from '../Images/telalogin.png';
 import PHlogo from '../Images/ph.png';
 import Imc from '../Images/imc.png';
 import WebStore from '../Images/webstore.jpg';
+import NetWeb from '../Images/netweb.png';
 
 
 const Projects=()=> {
@@ -60,13 +61,14 @@ const Projects=()=> {
                 </div>
                 <div className="project-content">
                     <div className="project-link">
-                        <h3>Web Store</h3>
+                        <h3>Colares artesanais</h3>
                         <a href="https://wagnermm.github.io/web-store/" target='blank'><img src={WebStore} alt="loja" /></a>
                     </div>
                 </div>
                 <div className="project-content">
                     <div className="project-link">
-                        
+                        <h3>Net Web</h3>
+                        <a href="https://wagnermm.github.io/netweb/" target='blank'><img src={NetWeb} alt="net web" /></a>
                     </div>
                 </div>
             </div>
