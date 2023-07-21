@@ -25,12 +25,12 @@
 .project-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background: #fff;
     border: 1px solid #333;
     width: 25%;
-    height: auto;
+    height: 600px;
     padding: 1rem;
 }
 
@@ -39,7 +39,7 @@
     height: auto;
     text-align: center;
     font-size: 1.4rem;
-    color: #070115;
+    color: #781232;
     font-weight: 600;
 }
 
@@ -93,12 +93,32 @@
     color: rgb(135, 2, 197);
 }
 
+.html-logo {
+    color: #e44308;
+}
+
 .sass-icon {
     color: #781232;
 }
 
 .js-icon {
     color: #cccc08;
+}
+
+.css-icon {
+    color: #012064;
+}
+
+.jquery-icon {
+    color: #005db4;
+}
+
+.react-logo {
+    color: #1cffff;;
+}
+
+.vite-logo {
+   color: #f502d4; 
 }
 
 .project-link {
