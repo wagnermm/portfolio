@@ -25,37 +25,96 @@
 .project-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #fff;
     border: 1px solid #333;
     width: 25%;
-    height: 250px;
+    height: auto;
+    padding: 1rem;
 }
 
-.project-link {
-    color: rgba(7,1,21,1);
+.project-name {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #070115;
     font-weight: 600;
+}
+
+#project-details p {
+    font-size: 1rem;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 300px;
+    text-align: center;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 1rem;
 }
 
-.project-link img {
+.project-image img {
     width: 180px;
     height: 150px;
     border-radius: 5px;
 }
 
-@keyframes openContent {
-    from {
-        visibility: visible;
-    }
-    to {
-        visibility: hidden;
-    }
+.project-description {
+    font-family: Barlow Condensed;
+    text-align: center;
+}
+
+.project-description p {
+    color: #070115;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.project-tecnology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bootstrap-icon {
+    color: rgb(135, 2, 197);
+}
+
+.sass-icon {
+    color: #781232;
+}
+
+.js-icon {
+    color: #cccc08;
+}
+
+.project-link {
+    width: 100%;
+    text-align: center;
+}
+
+.project-link button {
+    background: #781232;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.project-link a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .top {
