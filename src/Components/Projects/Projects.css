@@ -68,6 +68,7 @@
 }
 
 .project-description {
+    width: 80%;
     font-family: Barlow Condensed;
     text-align: center;
 }
