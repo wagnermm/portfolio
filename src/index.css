@@ -12,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(circle, rgb(104, 28, 52) 0%, rgba(7,1,21,1) 100%);
+  background: linear-gradient(to left, rgba(7,1,21,1) 0%, #f00e2d 100%);
   overflow-x: hidden !important;
 }
 

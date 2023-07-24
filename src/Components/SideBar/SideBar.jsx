@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import Avatar from '../Images/wagner.jpg';
+import Avatar from '../Images/wagner1.jpg';
 
 import './SideBar.css';
 

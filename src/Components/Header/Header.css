@@ -22,7 +22,7 @@
 
 .nav li {
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
     list-style-type: none;
 }
@@ -145,7 +145,7 @@
         top: 5vh;
         right: 0;
         padding: 1rem;
-        background-color: #681c34;
+        background-color: #f00e2d;
     }
     .close__menu:hover {
         background-color: #781232; 

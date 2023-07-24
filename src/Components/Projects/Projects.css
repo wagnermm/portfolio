@@ -28,7 +28,7 @@
     justify-content: space-evenly;
     align-items: center;
     background: #fff;
-    border: 1px solid #333;
+    border: 1px solid #070115;
     width: 25%;
     height: 600px;
     padding: 1rem;
@@ -39,7 +39,7 @@
     height: auto;
     text-align: center;
     font-size: 1.4rem;
-    color: #781232;
+    color: #f00e2d;
     font-weight: 600;
 }
 
@@ -63,6 +63,7 @@
 .project-image img {
     width: 180px;
     height: 150px;
+    border: 1px solid #070115;
     border-radius: 5px;
 }
 
@@ -102,7 +103,7 @@
 }
 
 .js-icon {
-    color: #cccc08;
+    color: #f1f100;
 }
 
 .css-icon {
@@ -127,7 +128,7 @@
 }
 
 .project-link button {
-    background: #781232;
+    background: #f00e2d;
     padding: 0.3rem;
     border-radius: 0.5rem;
 }
@@ -161,7 +162,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
     }
     .project-content {
         width: 100% !important;
@@ -182,7 +182,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
     }
     .project-content {
         width: 40%;

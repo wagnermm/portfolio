@@ -8,6 +8,7 @@ import PHlogo from '../Images/ph.png';
 import Imc from '../Images/imc.png';
 import WebStore from '../Images/webstore.jpg';
 import NetWeb from '../Images/netweb.png';
+import Brigadeiro from '../Images/brigadeiro.png';
 import { FaBootstrap, FaSass, FaHtml5, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { DiJqueryLogo } from 'react-icons/di';
@@ -131,8 +132,8 @@ const Projects=()=> {
                             <div className="html-logo">
                                 <FaHtml5/>
                             </div>
-                            <div className="css-icon">
-                                <IoLogoCss3/>
+                            <div className="sass-icon">
+                                <FaSass/>
                             </div>
                             <div className="js-icon">
                                 <IoLogoJavascript/>
@@ -140,7 +141,7 @@ const Projects=()=> {
                         </div>
                     </div>
                     <div className="project-link">
-                        <button><a href="https://wagnermm.github.io/form-css/" target='blank'>Ver Projeto</a></button>
+                        <button><a href="https://wagnermm.github.io/form-login/" target='blank'>Ver Projeto</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -241,6 +242,31 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/netweb/" target='blank'>Ver Projeto</a></button>
+                    </div>
+                </div>
+                <div className="project-content">
+                    <div className="project-name">
+                        <h3>Brigaderia</h3>
+                    </div>
+                    <div className="project-image">
+                        <img src={Brigadeiro} alt="brigadeiro"/>
+                    </div>
+                    <div className="project-description">
+                        <p>Nesse projeto desenvolvido com javascript, sass e jQery, criei uma web page totalmente funcional e responsiva. Uma brigaderia com design atraente e seus produtos destacados em cards e carrosel</p>
+                        <div className="project-tecnology">
+                            <div className="bootstrap-icon">
+                                <FaBootstrap/>
+                            </div>
+                            <div className="sass-icon">
+                                <FaSass/>
+                            </div>
+                            <div className="js-icon">
+                                <IoLogoJavascript/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-link">
+                        <button><a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'>Ver Projeto</a></button>
                     </div>
                 </div>
             </div>
