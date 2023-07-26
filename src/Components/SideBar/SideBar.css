@@ -54,7 +54,7 @@
     justify-content: space-between;
 }
 
-.linkedin, .github {
+.linkedin a, .github a{
     background-color: #0a021b;
     color: #fff;
     border: 1px solid #fff;
@@ -63,7 +63,7 @@
     font-size: 35px;
 }
 
-.linkedin:hover, .github:hover {
+.linkedin a:hover, .github a:hover {
     background-image: linear-gradient(to left, #f00e2d, #0a021b);
 }
 
