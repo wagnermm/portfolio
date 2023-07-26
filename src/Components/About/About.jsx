@@ -10,13 +10,15 @@ const About =()=> {
     return(
         <div className="aboutMe" id="about">
             <div className="aboutText">
-            <h1 className="lineTitle">Sobre mim</h1>
-            <p>Desde cedo sempre gostei de tecnologia e entender como as coisas funcionavam, quando meu 
-            computador tinha problemas por exemplo ou simplesmente não conseguia conectar minha internet discada, queria tentar resolver de imediato e de forma lógica. Mas apesar de tudo, não segui carreira em informática ao invés disso, escolhi outra profissão. Por mais de 10 anos trabalhei como segurança patrimonial, tendo experiências incríveis, trabalhando com gestão de pessoas, liderando equipes e desenvolvendo minha integridade profissional. Acabei conhecendo profissionais da área de TI, e pude conhecer mais sobre a profissão, com isso percebi que havia uma paixão por algo que já conhecia antes, algo que pudesse me satisfazer e me desafiar profissionalmente, algo que me fizesse crescer. Percebi que era hora de encerrar ciclos e a partir dos 35 anos venho tentando migrar para profissão de desenvolvedor. Criei um plano de carreira que passava antes por um plano de estudos, realizando cursos, faculdade e atuando como freelancer. Hoje tenho desenvolvido algumas web pages para pequenas empresas de amigos e isso tem me ajudado a me desenvolver como profissional front-end, mais ainda busco uma oportunidade em uma grande empresa onde eu possa demonstrar minhas qualificações e compartilhar conhecimentos com novas pessoas. Sou casado há 13 anos, tenho 1 filho de 10 e juntos frequentamos a igreja evangélica. Também sou mergulhador profissional mas não atuo na área e sou fascinado por história antiga e medieval, tendo uma coleção de moedas antigas.
-            </p>
+                <h1 className="lineTitle">Sobre mim</h1>
+                <p>Desde cedo sempre gostei de tecnologia e entender como as coisas funcionavam, quando meu 
+                computador tinha problemas por exemplo ou simplesmente não conseguia conectar minha internet discada, queria tentar resolver de imediato e de forma lógica. Mas apesar de tudo, não segui carreira em informática ao invés disso, escolhi outra profissão. Por mais de 10 anos trabalhei como segurança patrimonial, tendo experiências incríveis, trabalhando com gestão de pessoas, liderando equipes e desenvolvendo minha integridade profissional. Acabei conhecendo profissionais da área de TI, e pude conhecer mais sobre a profissão, com isso percebi que havia uma paixão por algo que já conhecia antes, algo que pudesse me satisfazer e me desafiar profissionalmente, algo que me fizesse crescer. Percebi que era hora de encerrar ciclos e a partir dos 35 anos venho tentando migrar para profissão de desenvolvedor. Criei um plano de carreira que passava antes por um plano de estudos, realizando cursos, faculdade e atuando como freelancer. Hoje tenho desenvolvido algumas web pages para pequenas empresas de amigos e isso tem me ajudado a me desenvolver como profissional front-end, mais ainda busco uma oportunidade em uma grande empresa onde eu possa demonstrar minhas qualificações e compartilhar conhecimentos com novas pessoas. Sou casado há 13 anos, tenho 1 filho de 10 e juntos frequentamos a igreja evangélica. Também sou mergulhador profissional mas não atuo na área e sou fascinado por história antiga e medieval, tendo uma coleção de moedas antigas.
+                </p>
             </div>
-            <h2>Principais tecnologioas que utilizo:</h2>
             <div className="tecnologies">
+                <div className="tecnologies-title">
+                    <h2>Principais tecnologioas que utilizo</h2>
+                </div>
                 <div className="tecnologies-box">
                     <h5>HTML5</h5>
                     <img src={Html} alt="html" />

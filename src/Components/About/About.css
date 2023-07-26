@@ -4,7 +4,7 @@
     width: 100%;
     padding: 20px;
     font-size: 20px;
-    margin-top: 5rem;
+    margin-top: 8rem;
     background-color: rgb(10, 2, 27);
     color: #fff;
     font-family: Barlow Condensed;
@@ -23,18 +23,22 @@
 }
 
 .tecnologies {
+    margin-top: 5rem;
     width: 80%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
     background-color: #0a0a0a;
-    box-shadow: 1px 2px 2px #333;
+}
+
+.tecnologies-title {
+    width: 100%;
+    text-align: center;
 }
 
 .tecnologies-box {
-    border: 1px solid #333;
-    box-shadow: 1px 1px 1px #fff;
+    border: 1px solid #fff;
     gap: 1rem;
     width: 45%;
     height: auto;

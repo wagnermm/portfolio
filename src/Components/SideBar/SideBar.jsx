@@ -22,7 +22,7 @@ const SideBar =()=> {
             </div>
             <div className="infoText">
                 <h2>Olá, seja bem vindo ao meu portifólio!</h2>
-                <p>Sou um desenvolvedor web e trabalho com React.Js. Tenho desenvolvido alguns projetos que você poderá conferir nesta página.</p>
+                <p>Sou um desenvolvedor web e trabalho com React. Tenho desenvolvido alguns projetos que você poderá conferir nesta página.</p>
             </div>
         </aside> 
     )
