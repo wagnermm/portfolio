@@ -7,8 +7,8 @@ const Header =()=> {
     const [active, setActive] = useState("nav__menu");
     const [toggleIcon, setToggleIcon] = useState("nav__toggler");
     const navToggle = ()=> { 
-      active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu')
-      toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler')
+      active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+      toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler');
     };
     const [contactInfo, setContactInfo] = useState("contact__hide");
     const navContact = ()=> {

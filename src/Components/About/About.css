@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Lato:wght@300&display=swap');
 
 .aboutMe {
-    width: 100%;
+    max-width: 100%;
     padding: 20px;
     font-size: 20px;
     margin-top: 8rem;
@@ -17,24 +17,32 @@
     overflow-x: hidden;
 }
 
-.aboutText {
-    width: 80%;
-    text-shadow: 1px 2px 2px #000000;
+.aboutContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTitle {
+    font-size: 2rem;
 }
 
 .tecnologies {
     margin-top: 5rem;
-    width: 80%;
+    width: 100%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
-    background-color: #0a0a0a;
 }
 
 .tecnologies-title {
     width: 100%;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .tecnologies-box {
@@ -42,17 +50,22 @@
     gap: 1rem;
     width: 45%;
     height: auto;
+    background: #020014;
 }
 
 .tecnologies-box:hover {
     box-shadow: none;
-    background-color: #000000;
 }
 
 .tecnologies-box img {
     width: 35%;
+    height: 180px;
     border: 1px solid #fff;
     border-radius: 5px;
+}
+
+.tecnologies-box img:hover {
+    opacity: 75%;
 }
 
 @media (max-width: 768px) {
@@ -60,11 +73,14 @@
         padding: 5px;
         font-size: 18px;
     }
-    .aboutText {
-        width: 90%;
+    .aboutTitle {
+        font-size: 1.8rem;
     }
     .tecnologies-box {
         width: 100%;
+    }
+    .tecnologies-title {
+        font-size: 1.2rem;
     }
     .tecnologies-box img {
         width: 200px;

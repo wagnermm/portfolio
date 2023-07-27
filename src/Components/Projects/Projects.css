@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Lato:wght@300&display=swap');
 
 .project-container {
+    max-width: 100%;
     margin-top: 2rem;
     overflow-x: hidden;
 }
@@ -15,6 +16,7 @@
 }
 
 .project-body {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,14 +25,15 @@
 }
 
 .project-content {
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
     background: #fff;
     border: 1px solid #070115;
     width: 25%;
-    height: 600px;
     padding: 1rem;
 }
 
@@ -67,10 +70,43 @@
     border-radius: 5px;
 }
 
+.project-image img:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.btn-description {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: #070115;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-description:hover {
+    opacity: 90%;
+}
+
+.project-description-close {
+    display: none;
+}
+
 .project-description {
+    
+    top: 2rem;
     width: 80%;
+    height: 220px;
+    padding: 1rem;
     font-family: Barlow Condensed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
+    border-radius: 1rem;
+    z-index: 2;
 }
 
 .project-description p {
@@ -92,35 +128,51 @@
 }
 
 .bootstrap-icon {
-    color: rgb(135, 2, 197);
+    color: #8702c5;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .html-logo {
     color: #e44308;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .sass-icon {
     color: #781232;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .js-icon {
     color: #f1f100;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .css-icon {
     color: #012064;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .jquery-icon {
     color: #005db4;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .react-logo {
-    color: #1cffff;;
+    color: #1cffff;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .vite-logo {
-   color: #f502d4; 
+   color: #f502d4;
+   background: #fff;
+   border-radius: 5px;
 }
 
 .project-link {
@@ -166,7 +218,12 @@
     }
     .project-content {
         width: 100% !important;
+        border: none;
         margin-bottom: 1rem;
+    }
+    .project-description {
+        padding: 0;
+        margin-right: 1.5rem;
     }
     .project-link img {
         width: 200px !important;
@@ -175,9 +232,6 @@
 }
 
 @media (max-width: 768px) {
-    .project-title {
-        font-size: 2rem;
-    }
     .project-body {
         display: flex;
         flex-wrap: wrap;
@@ -187,8 +241,23 @@
     .project-content {
         width: 40%;
     }
+    .project-description p {
+        font-size: 1rem;
+    }
+    .project-tecnology {
+        font-size: 1.6;
+    }
     .project-link img {
         width: 150px;
         height: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .project-title {
+        font-size: 1.8rem;
+    }
+    .project-content p {
+        font-size: 1rem;
     }
 }

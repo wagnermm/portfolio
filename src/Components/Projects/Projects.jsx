@@ -9,6 +9,7 @@ import Imc from '../Images/imc.png';
 import WebStore from '../Images/webstore.jpg';
 import NetWeb from '../Images/netweb.png';
 import Brigadeiro from '../Images/brigadeiro.png';
+import { BsFillInfoCircleFill } from 'react-icons/bs';
 import { FaBootstrap, FaSass, FaHtml5, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { DiJqueryLogo } from 'react-icons/di';
@@ -27,6 +28,9 @@ const Projects=()=> {
                         <h3>Confeitaria</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
                         <img src={LogoConfectonery} alt="logo-confeitaria"/>
                     </div>
                     <div className="project-description">
@@ -52,6 +56,9 @@ const Projects=()=> {
                         <h3>Mario Jump</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>   
                         <img src={Mario} alt="mario" />
                     </div>
                     <div className="project-description">
@@ -74,6 +81,9 @@ const Projects=()=> {
                         <h3>BarberShop</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
                         <img src={LogoBarberShop} alt="logo-barbearia" />
                     </div>
                     <div className="project-description">
@@ -99,6 +109,9 @@ const Projects=()=> {
                         <h3>Calculator</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
                         <img src={CalculatorImg} alt="calculadora" />
                     </div>
                     <div className="project-description">
@@ -124,6 +137,9 @@ const Projects=()=> {
                         <h3>Tela de Login</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
                         <img src={TelaLogin} alt="Telalogin" />
                     </div>
                     <div className="project-description">
@@ -146,10 +162,13 @@ const Projects=()=> {
                 </div>
                 <div className="project-content">
                     <div className="project-name">
-                        <h3>Escritório de Advocacia</h3>
+                        <h3>Advocacia</h3>
                     </div>
                     <div className="project-image">
-                        <img src={PHlogo} alt="phLogo" />
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
+                        <img src={PHlogo} alt="phLogo"/>
                     </div>
                     <div className="project-description">
                         <p>Web page inspirada na série Suits, nesse projeto pude aprimorar alguns conceitos em javascript, utilizando um slide com informações no banner principal, além da responsividade e a utilização de favicon.</p>
@@ -174,7 +193,10 @@ const Projects=()=> {
                         <h3>Calculadora IMC</h3>
                     </div>
                     <div className="project-image">
-                        <img src={Imc} alt="imc" />
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
+                        <img src={Imc} alt="imc"/>
                     </div>
                     <div className="project-description">
                         <p>O primeiro projeto desenvolvido em react, nele pude ter melhor compreensão de jsx, components e hooks importantes como o use state. A aplicação realiza o cálculo IMC com base no peso e altura do usuário.</p>
@@ -196,10 +218,13 @@ const Projects=()=> {
                 </div>
                 <div className="project-content">
                     <div className="project-name">
-                        <h3>Colares artesanais</h3>
+                        <h3>Crystaline</h3>
                     </div>
                     <div className="project-image">
-                        <img src={WebStore} alt="loja" />
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
+                        <img src={WebStore} alt="loja"/>
                     </div>
                     <div className="project-description">
                         <p>Projeto web page de uma loja de colares artesanais. Nesse projeto pude aprender mais sobre jQery e alguns de seus mais importantes plugis, como owl carousel e jquery validate.</p>
@@ -224,7 +249,10 @@ const Projects=()=> {
                         <h3>Net Web</h3>
                     </div>
                     <div className="project-image">
-                        <img src={NetWeb} alt="net web" />
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
+                        <img src={NetWeb} alt="net web"/>
                     </div>
                     <div className="project-description">
                         <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual mais robusta e com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja.</p>
@@ -249,6 +277,9 @@ const Projects=()=> {
                         <h3>Brigaderia</h3>
                     </div>
                     <div className="project-image">
+                        <button className='btn-description'>
+                            <BsFillInfoCircleFill/>
+                        </button>
                         <img src={Brigadeiro} alt="brigadeiro"/>
                     </div>
                     <div className="project-description">
