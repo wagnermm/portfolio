@@ -76,6 +76,7 @@
 }
 
 .btn-description {
+    display: none;
     position: absolute;
     top: 2rem;
     right: 2rem;
