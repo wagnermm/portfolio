@@ -70,11 +70,6 @@
     border-radius: 5px;
 }
 
-.project-image img:hover {
-    cursor: pointer;
-    opacity: 75%;
-}
-
 .btn-description {
     position: absolute;
     top: 2rem;
@@ -191,6 +186,10 @@
     background: #f00e2d;
     padding: 0.3rem;
     border-radius: 0.5rem;
+}
+
+.project-link button:hover {
+    background: #aa0017;
 }
 
 .project-link a {
