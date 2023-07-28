@@ -25,7 +25,7 @@
 }
 
 .project-content {
-    
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,7 +76,6 @@
 }
 
 .btn-description {
-    display: none;
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -91,12 +90,15 @@
     opacity: 90%;
 }
 
-.project-description-close {
+.project-description-hidden {
     display: none;
 }
 
-.project-description {
-    
+.project-description-1, .project-description-2, .project-description-3,
+.project-description-4, .project-description-5, .project-description-6,
+.project-description-7, .project-description-8, .project-description-9,
+.project-description-10 {
+    position: absolute;
     top: 2rem;
     width: 80%;
     height: 220px;
@@ -106,12 +108,16 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    background: #070115;
     border-radius: 1rem;
     z-index: 2;
 }
 
-.project-description p {
-    color: #070115;
+.project-description-1 p, .project-description-2 p, .project-description-3 p,
+.project-description-4 p, .project-description-5 p, .project-description-6 p,
+.project-description-7 p, .project-description-8 p, .project-description-9 p,
+.project-description-10 p {
+    color: #fff;
     font-size: 1.2rem;
     font-weight: bolder;
 }

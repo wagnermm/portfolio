@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Projects.css';
 import LogoConfectonery from '../Images/confectonery.png';
 import Mario from '../Images/mario.gif';
@@ -17,6 +18,20 @@ import { SiVitess } from 'react-icons/si';
 
 
 const Projects=()=> {
+    const [oneProject, setOneProject] = useState("project-description-hidden");
+    const openProjectOne = ()=> {
+        oneProject === 'project-description-hidden' ? setOneProject('project-description-1') : setOneProject('project-description-hidden');
+    };
+    const closeProjectOne = ()=> {
+        oneProject === 'project-description-1' ? setOneProject('project-description-hidden') : setOneProject('project-description-hidden');
+    };
+    const [twoProject, setTwoProject] = useState("project-description-hidden");
+    const openProjectTwo = ()=> {
+        twoProject === 'project-description-hidden' ? setTwoProject('project-description-2') : setTwoProject('project-description-hidden');
+    }
+    const closeProjectTwo = ()=> {
+        twoProject === 'project-description-2' ? setTwoProject('project-description-hidden') : setTwoProject('project-description-hidden');
+    };
     return(
         <div className="project-container">
             <div className="project-title" id='projects'>
@@ -28,12 +43,12 @@ const Projects=()=> {
                         <h3>Confeitaria</h3>
                     </div>
                     <div className="project-image">
-                        <button className='btn-description'>
+                        <button className='btn-description' onClick={openProjectOne}>
                             <BsFillInfoCircleFill/>
                         </button>
                         <img src={LogoConfectonery} alt="logo-confeitaria"/>
                     </div>
-                    <div className="project-description">
+                    <div className={oneProject} onClick={closeProjectOne}>
                         <p>Um dos primeiros projetos criados. Uma confeitaria desenvolvida com bootstrap, explorando conceitos de modal, slide carousel e um design de cores que faz referência a seus produtos.</p>
                         <div className="project-tecnology">
                             <div className="bootstrap-icon">
@@ -56,12 +71,12 @@ const Projects=()=> {
                         <h3>Mario Jump</h3>
                     </div>
                     <div className="project-image">
-                        <button className='btn-description'>
+                        <button className='btn-description' onClick={openProjectTwo}>
                             <BsFillInfoCircleFill/>
                         </button>   
                         <img src={Mario} alt="mario" />
                     </div>
-                    <div className="project-description">
+                    <div className={twoProject} onClick={closeProjectTwo}>
                         <p>Jogo do Mario desenvolvido em javascript. Com funções e keyframes é possivel manipular o personagem clicando na tela. Se o Mario não pular sobre o obstáculo, a animação se encerrará e uma imagem de game over será exibida.</p>
                         <div className="project-tecnology">
                             <div className="css-icon">
@@ -86,7 +101,7 @@ const Projects=()=> {
                         </button>
                         <img src={LogoBarberShop} alt="logo-barbearia" />
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-3">
                         <p>Uma barbearia, desenvolvida com html, css e javascript e um design característico de uma barbershop. Nesse projeto utilizei o owl carousel para exibir os cortes e um formulário para os clientes agendarem um horário.</p>
                         <div className="project-tecnology">
                             <div className="html-logo">
@@ -114,7 +129,7 @@ const Projects=()=> {
                         </button>
                         <img src={CalculatorImg} alt="calculadora" />
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-4">
                         <p>Uma calculadora criada para aprimorar meus conhecimentos de funções e variáveis. A calculadora executa as quatro operações básicas usando javascript, html5 e css3.</p>
                         <div className="project-tecnology">
                             <div className="html-logo">
@@ -142,7 +157,7 @@ const Projects=()=> {
                         </button>
                         <img src={TelaLogin} alt="Telalogin" />
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-5">
                         <p>Nessa tela de login temos uma apresentação de um layout responsivo e um design gráfico muito compreensível, explorando conceitos after e before do css, além de regex para validar o formulário.</p>
                         <div className="project-tecnology">
                             <div className="html-logo">
@@ -170,7 +185,7 @@ const Projects=()=> {
                         </button>
                         <img src={PHlogo} alt="phLogo"/>
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-6">
                         <p>Web page inspirada na série Suits, nesse projeto pude aprimorar alguns conceitos em javascript, utilizando um slide com informações no banner principal, além da responsividade e a utilização de favicon.</p>
                         <div className="project-tecnology">
                             <div className="html-logo">
@@ -198,7 +213,7 @@ const Projects=()=> {
                         </button>
                         <img src={Imc} alt="imc"/>
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-7">
                         <p>O primeiro projeto desenvolvido em react, nele pude ter melhor compreensão de jsx, components e hooks importantes como o use state. A aplicação realiza o cálculo IMC com base no peso e altura do usuário.</p>
                         <div className="project-tecnology">
                             <div className="react-logo">
@@ -226,7 +241,7 @@ const Projects=()=> {
                         </button>
                         <img src={WebStore} alt="loja"/>
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-8">
                         <p>Projeto web page de uma loja de colares artesanais. Nesse projeto pude aprender mais sobre jQery e alguns de seus mais importantes plugis, como owl carousel e jquery validate.</p>
                         <div className="project-tecnology">
                             <div className="html-logo">
@@ -254,7 +269,7 @@ const Projects=()=> {
                         </button>
                         <img src={NetWeb} alt="net web"/>
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-9">
                         <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual mais robusta e com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja.</p>
                         <div className="project-tecnology">
                             <div className="vite-logo">
@@ -282,7 +297,7 @@ const Projects=()=> {
                         </button>
                         <img src={Brigadeiro} alt="brigadeiro"/>
                     </div>
-                    <div className="project-description">
+                    <div className="project-description-10">
                         <p>Nesse projeto desenvolvido com javascript, sass e jQery, criei uma web page totalmente funcional e responsiva. Uma brigaderia com design atraente e seus produtos destacados em cards e carrosel</p>
                         <div className="project-tecnology">
                             <div className="bootstrap-icon">
