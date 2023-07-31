@@ -227,7 +227,10 @@
         border: none;
         margin-bottom: 1rem;
     }
-    .project-description {
+    .project-description-1, .project-description-2, .project-description-3,
+    .project-description-4, .project-description-5, .project-description-6,
+    .project-description-7, .project-description-8, .project-description-9,
+    .project-description-10 {
         padding: 0;
         margin-right: 1.5rem;
     }
@@ -246,9 +249,6 @@
     }
     .project-content {
         width: 40%;
-    }
-    .project-description p {
-        font-size: 1rem;
     }
     .project-tecnology {
         font-size: 1.6;
