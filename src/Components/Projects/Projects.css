@@ -70,6 +70,11 @@
     border-radius: 5px;
 }
 
+.project-image img:hover {
+    opacity: 65%;
+    transition: 5 ease-in-out;
+}
+
 .btn-description {
     position: absolute;
     top: 2rem;

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #fff;
     font-weight: bolder;
     overflow-x: hidden;
@@ -10,6 +10,7 @@
 
 .portifolio-header h1 {
     font-size: 3.2rem;
+    padding-left: 1rem;
 }
 
 .nav__menu, .menu__close {
@@ -104,12 +105,12 @@
     .nav__menu {
         flex-direction: column;
         position: fixed;
-        top: 7vh;
+        top: 0;
         right: 0;
         width: 70vw;
         height: 100vh;
         font-size: 1.4rem;
-        background: rgba(7,1,21,0.9);
+        background: rgb(7,1,21);
         transform: translateX(100%);
         transition: 0.5 ease-in;
         z-index: 3;
@@ -120,7 +121,7 @@
     .nav__menu li {
         font-size: 1.4rem;
         text-align: center;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
     }
     .nav a:hover {
         border: none;
@@ -147,6 +148,7 @@
         right: 0;
         padding: 1rem;
         background-color: #f00e2d;
+        border-radius: 0.5rem;
     }
     .close__menu:hover {
         background-color: #781232; 
