@@ -368,7 +368,7 @@ const Projects=()=> {
                         </div>
                     </div>
                     <div className="project-link">
-                        <button><a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'>Ver Projeto</a></button>
+                        <button><a href="http://brigadeirospaes.great-site.net/" target='blank'>Ver Projeto</a></button>
                     </div>
                 </div>
             </div>
