@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './Header.css';
 import {BsWhatsapp} from 'react-icons/bs';
-import {AiOutlineClose} from 'react-icons/ai';
+import {AiOutlineMail} from 'react-icons/ai';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Header =()=> {
     const [active, setActive] = useState("nav__menu");
@@ -22,9 +23,19 @@ const Header =()=> {
     }
     return(
         <div className="portifolio-header">
-          <div>
+          <div className='title'>
             <h1>Wagner Miranda</h1>
-            <div className="lineTitleDown"></div>
+            <p>Desenvolveor Front-end</p>
+            <div className="main-social">
+                <div className="socials">
+                    <div className="linkedin">
+                        <a href="https://www.linkedin.com/in/wagner-mm/" target="blank"><FaLinkedin/></a>
+                    </div>
+                    <div className="github">
+                        <a href="https://github.com/wagnermm" target="blank"><FaGithub/></a>
+                    </div>  
+                </div>
+              </div>
           </div>
           <nav className="nav">    
             <ul className={active}>
@@ -33,7 +44,13 @@ const Header =()=> {
                 <li className='nav__item' id="home"><a href="index.html">Home</a></li>
                 <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
                 <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
-                <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato <div className={contactInfo}><BsWhatsapp/> (41)9 8495-5509<br/><AiOutlineClose/></div></a></li>
+                <li onClick={navContact} className='nav__item' id="contato"><a href="#contact">Contato<div className={contactInfo}><a href="https://api.whatsapp.com/send?phone=5541984955509" target='blank'><BsWhatsapp/> (41)98495-5509</a><br/>
+                <div className="closeContactInfo">
+                  X
+                </div>
+                <a href="mailto:endereço eletrônico?subject=wagnermarquesdemiranda@gmail.com" target='blank'><AiOutlineMail/> wagnermarquesdemiranda@gmail.com</a>
+                </div></a>
+                </li>
               </div>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>

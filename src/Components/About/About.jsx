@@ -1,4 +1,5 @@
 import './About.css';
+import Avatar from '../Images/wagner1.jpg';
 import Html from '../Images/html.jpg';
 import Css from '../Images/css.jpg';
 import Js from '../Images/js.png';
@@ -8,14 +9,19 @@ import Rct from '../Images/react.jfif';
 
 const About =()=> {
     return(
-        <div className="aboutMe" id="about">
-            <div className="aboutContainer">
-                <div className="aboutTitle">
-                    <h1>Sobre mim</h1>
+        <div className="aboutContainer" id="about">
+            <div className="aboutMe">
+                <div className="aboutMeDescription">
+                    <div className="aboutTitle">
+                        <h2>Sobre mim</h2>
+                    </div>
+                    <div className="aboutText">
+                        <p>Amo de tecnologia e gosto de entender como ela funciona, quando tinha problemas com meu computador ou minha internet, por exemplo, queria tentar entender para resolver. Em 2021 iniciei o curso de Front-End na EBAC, aprendendo as pricipais tecnologias e criando projetos, em 2023 comecei a cursar Análise e Desenvolvimento de Sistemas na UNIFATECIE, e pude aperfeiçoar conhecimentos técnicos e conhecer mais sobre metodologias ágeis. Ainda busco uma oportunidade de trabalho onde eu possa me desenvolver ainda mais e compartilhar conhecimentos com outras pessoas.
+                        </p>
+                    </div>
                 </div>
-                <div className="aboutText">
-                    <p>Amo de tecnologia e gosto de entender como ela funciona, quando tinha problemas com meu computador ou minha internet, por exemplo, queria tentar entender para resolver. Em 2021 iniciei o curso de Front-End na EBAC, aprendendo as pricipais tecnologias e criando projetos, em 2023 comecei a cursar Análise e Desenvolvimento de Sistemas na UNIFATECIE, e pude aperfeiçoar conhecimentos técnicos e conhecer mais sobre metodologias ágeis. Ainda busco uma oportunidade de trabalho onde eu possa me desenvolver ainda mais e compartilhar conhecimentos com outras pessoas.
-                    </p>
+                <div className="aboutMeAvatar">
+                    <img src={Avatar} alt="Wagner Miranda" />
                 </div>
             </div>
             <div className="tecnologies">
