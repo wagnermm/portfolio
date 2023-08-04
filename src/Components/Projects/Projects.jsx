@@ -120,6 +120,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/confectionery/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/confectionery" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -145,6 +146,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/mario-game/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/mario-game" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -173,6 +175,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/barbershop/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/barbershop" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -201,6 +204,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/calculator-js/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/calculator-js" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -229,6 +233,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/form-login/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/form-login/tree/main" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -257,6 +262,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/law-firm/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/law-firm" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -285,6 +291,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href=" https://wagnermm.github.io/IMC/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/IMC" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -313,6 +320,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/web-store/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/web-store" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -341,6 +349,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="https://wagnermm.github.io/netweb/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/netweb" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -369,6 +378,7 @@ const Projects=()=> {
                     </div>
                     <div className="project-link">
                         <button><a href="http://brigadeirospaes.great-site.net/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/brigadeiros-paes" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
             </div>

@@ -202,6 +202,15 @@
     color: #fff;
 }
 
+button ~ .btn-code {
+    margin-left: 1rem;
+    background: #100231;
+}
+
+button ~ .btn-code:hover {
+    background: #070115;
+}
+
 .top {
     width: 100%;
     text-align: center;
