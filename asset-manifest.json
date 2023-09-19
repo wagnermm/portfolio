@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6603b781.css",
-    "main.js": "/portfolio/static/js/main.0411c074.js",
+    "main.js": "/portfolio/static/js/main.9a0020fe.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
+    "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.21c4b8805fff51b47615.png",
+    "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.b34eade29b56f0e289db.png",
     "static/media/logo.jpg": "/portfolio/static/media/logo.98a48dbe89f27ee58a31.jpg",
     "static/media/wagner1.jpg": "/portfolio/static/media/wagner1.8d09b408f59274cd9457.jpg",
     "static/media/js.png": "/portfolio/static/media/js.94c944348b72697d358d.png",
     "static/media/confectonery.png": "/portfolio/static/media/confectonery.c19bb17ab3b42007bfae.png",
     "static/media/css.jpg": "/portfolio/static/media/css.0423886c3f93afa39e2e.jpg",
-    "static/media/telalogin.png": "/portfolio/static/media/telalogin.587d00a1a8b715c21c1a.png",
     "static/media/mario.gif": "/portfolio/static/media/mario.b481b80877cb6f0c66ad.gif",
     "static/media/webstore.jpg": "/portfolio/static/media/webstore.31d42f77285a9265c727.jpg",
     "static/media/netweb.png": "/portfolio/static/media/netweb.dd6ec6769954bd179625.png",
     "static/media/node.jpg": "/portfolio/static/media/node.74576ea4f2775c3d0206.jpg",
-    "static/media/imc.png": "/portfolio/static/media/imc.11dcea8b0beab077d1da.png",
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
     "main.6603b781.css.map": "/portfolio/static/css/main.6603b781.css.map",
-    "main.0411c074.js.map": "/portfolio/static/js/main.0411c074.js.map",
+    "main.9a0020fe.js.map": "/portfolio/static/js/main.9a0020fe.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6603b781.css",
-    "static/js/main.0411c074.js"
+    "static/js/main.9a0020fe.js"
   ]
 }
