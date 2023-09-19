@@ -6,7 +6,7 @@ import LogoBarberShop from '../Images/logo.jpg';
 import CalculatorImg from '../Images/calculator.gif';
 import TelaLogin from '../Images/telalogin.png';
 import PHlogo from '../Images/ph.png';
-import Imc from '../Images/imc.png';
+import interactiveCard from '../Images/interactive-card.png';
 import WebStore from '../Images/webstore.jpg';
 import NetWeb from '../Images/netweb.png';
 import { BsFillInfoCircleFill } from 'react-icons/bs';
@@ -111,8 +111,8 @@ const Projects=()=> {
                         </div>
                     </div>
                     <div className="project-link">
-                        <button><a href="https://wagnermm.github.io/confectionery/" target='blank'>Ver Projeto</a></button>
-                        <button className='btn-code'><a href="https://github.com/wagnermm/confectionery" target='blank'>Ver Código</a></button>
+                        <button><a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/brigadeiros-paes" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -259,19 +259,19 @@ const Projects=()=> {
                 </div>
                 <div className="project-content">
                     <div className="project-name">
-                        <h3>Calculadora IMC</h3>
+                        <h3>Interactive Card</h3>
                     </div>
                     <div className="project-image">
                         <button className='btn-description' onMouseEnter={openProjectSeven}>
                             <BsFillInfoCircleFill/>
                         </button>
-                        <img src={Imc} alt="imc"/>
+                        <img src={interactiveCard} alt="interactive card"/>
                     </div>
                     <div className={sevenProject} onMouseLeave={closeProjectSeven}>
-                        <p>O primeiro projeto desenvolvido em react, nele pude ter melhor compreensão de jsx, components e hooks importantes como o use state. A aplicação realiza o cálculo IMC com base no peso e altura do usuário.</p>
+                        <p>Um cartão que pode interagir com o usuário que pode cadastrar o seu cartão e ver o preenchimento automático. Não há back-end para salvar os dados, esta aplicação somente exibe a interfácie e valida os campos de entrada.</p>
                         <div className="project-tecnology">
-                            <div className="react-logo">
-                                <FaReact/>
+                            <div className="html-logo">
+                                <FaHtml5/>
                             </div>
                             <div className="js-icon">
                                 <IoLogoJavascript/>
@@ -282,8 +282,8 @@ const Projects=()=> {
                         </div>
                     </div>
                     <div className="project-link">
-                        <button><a href=" https://wagnermm.github.io/IMC/" target='blank'>Ver Projeto</a></button>
-                        <button className='btn-code'><a href="https://github.com/wagnermm/IMC" target='blank'>Ver Código</a></button>
+                        <button><a href="https://wagnermm.github.io/interactive-card/" target='blank'>Ver Projeto</a></button>
+                        <button className='btn-code'><a href="https://github.com/wagnermm/interactive-card" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
                 <div className="project-content">
@@ -326,7 +326,7 @@ const Projects=()=> {
                         <img src={NetWeb} alt="net web"/>
                     </div>
                     <div className={nineProject} onMouseLeave={closeProjectNine}>
-                        <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual mais robusta e com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja.</p>
+                        <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja.</p>
                         <div className="project-tecnology">
                             <div className="vite-logo">
                                 <SiVitess/>
