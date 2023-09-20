@@ -46,17 +46,17 @@ const About =()=> {
                 <div className="tecnologies-box">
                     <h5>NodeJs</h5>
                     <img src={Node} alt="node" />
-                    <p> Iniciando em 2022, com Node pude aprimorar conceitos sobre o JavaScript criando classes e objetos, também utilizando npm para instalar e gerenciar frameworks e bibliotecas.</p>
+                    <p> Iniciando em 2022, com Node pude aprimorar conceitos sobre o ambiente JavaScript, também utilizando npm para instalar e gerenciar frameworks e bibliotecas.</p>
                 </div>
                 <div className="tecnologies-box">
                     <h5>Bootstrap</h5>
                     <img src={Bootstrap} alt="bootstrap" />
-                    <p> Comecei com Bootstrap também em 2022, através dele pude melhorar meus projetos tornando sites mais responsivos e utilizando ferramentas como modal e slide carousel.</p>
+                    <p> Comecei com Bootstrap também em 2022, através dele pude conhecer ferramentas como modal e slide carousel.</p>
                 </div>
                 <div className="tecnologies-box">
                     <h5>ReactJs</h5>
                     <img src={Rct} alt="react" />
-                    <p> Tendo inicio em 2023, com React pude criar projetos mais dinâmicos com o uso de seus components.</p>
+                    <p> Tendo inicio em 2023, com React pude criar projetos dinâmicos com o uso de seus components.</p>
                 </div>
             </div>
         </div>
