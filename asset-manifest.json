@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6603b781.css",
-    "main.js": "/portfolio/static/js/main.9a0020fe.js",
+    "main.js": "/portfolio/static/js/main.6798b953.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
     "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
@@ -20,11 +20,11 @@
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
     "main.6603b781.css.map": "/portfolio/static/css/main.6603b781.css.map",
-    "main.9a0020fe.js.map": "/portfolio/static/js/main.9a0020fe.js.map",
+    "main.6798b953.js.map": "/portfolio/static/js/main.6798b953.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6603b781.css",
-    "static/js/main.9a0020fe.js"
+    "static/js/main.6798b953.js"
   ]
 }
