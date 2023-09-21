@@ -97,7 +97,7 @@ const Projects=()=> {
                         <img src={LogoConfectonery} alt="logo-confeitaria"/>
                     </div>
                     <div className={oneProject} onMouseLeave={closeProjectOne}>
-                        <p>Um dos primeiros projetos criados. Uma confeitaria desenvolvida com bootstrap, explorando conceitos de modal, slide carousel e um design de cores que faz referência a seus produtos.</p>
+                        <p>Um dos primeiros projetos criados. Uma confeitaria desenvolvida com bootstrap, explorando conceitos de modal, slide carousel e um design de cores que faz referência a seus produtos. (Projeto em andamento)</p>
                         <div className="project-tecnology">
                             <div className="bootstrap-icon">
                                 <FaBootstrap/>
@@ -166,7 +166,7 @@ const Projects=()=> {
                         </div>
                     </div>
                     <div className="project-link">
-                        <button><a href="https://wagnermm.github.io/barbershop/" target='blank'>Ver Projeto</a></button>
+                        <button><a href="https://www.fiodanavalha.great-site.net/" target='blank'>Ver Projeto</a></button>
                         <button className='btn-code'><a href="https://github.com/wagnermm/barbershop" target='blank'>Ver Código</a></button>
                     </div>
                 </div>
@@ -326,7 +326,7 @@ const Projects=()=> {
                         <img src={NetWeb} alt="net web"/>
                     </div>
                     <div className={nineProject} onMouseLeave={closeProjectNine}>
-                        <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja.</p>
+                        <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja. (Projeto em andamento)</p>
                         <div className="project-tecnology">
                             <div className="vite-logo">
                                 <SiVitess/>
