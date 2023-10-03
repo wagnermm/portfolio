@@ -164,7 +164,7 @@
         font-size: 1.4rem;
         background: rgb(7,1,21);
         transform: translateX(100%);
-        transition: 0.5 ease-in;
+        transition: 0.5s ease-in;
         z-index: 3;
     }
     .menu__close {
