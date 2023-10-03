@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6603b781.css",
+    "main.css": "/portfolio/static/css/main.59628a29.css",
     "main.js": "/portfolio/static/js/main.91033ed0.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
     "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
@@ -19,12 +19,12 @@
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
-    "main.6603b781.css.map": "/portfolio/static/css/main.6603b781.css.map",
+    "main.59628a29.css.map": "/portfolio/static/css/main.59628a29.css.map",
     "main.91033ed0.js.map": "/portfolio/static/js/main.91033ed0.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6603b781.css",
+    "static/css/main.59628a29.css",
     "static/js/main.91033ed0.js"
   ]
 }
