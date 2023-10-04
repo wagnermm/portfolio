@@ -1,49 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 .portifolio-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: Space, Grotesk;
     color: #fff;
     font-weight: bolder;
     overflow: hidden;
 }
-
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .title h1 {
-    font-size: 3.5rem;
-    padding-left: 1rem;
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px #fff;
 }
-
+.aboutMeAvatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMeAvatar img {
+    width: 40%;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+.title p {
+    font-size: 1.2rem;
+}
 .main-social {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .socials {
     width: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
-
-.linkedin a, .github a{
-    background-color: #0a021b;
+.linkedin a, .github a,
+.whatsapp a, .email a {
+    display: flex;
     color: #fff;
-    border: 1px solid #fff;
     border-radius: 5px;
+    padding: 5px;
     cursor: pointer;
     font-size: 35px;
+    transition: 0.2s ease-in;
 }
-
-.linkedin a:hover, .github a:hover {
-    background-image: linear-gradient(to left, #f00e2d, #0a021b);
+.linkedin a:hover, .github a:hover,
+.whatsapp a:hover, .email a:hover {
+    background-color: #333;
 }
-
+.linkedin a:visited, .github a:visited,
+.whatsapp a:visited, .email a:visited {
+    color: #fff;
+}
 .nav__menu, .menu__close {
     display: flex;
     flex-direction: row;
@@ -51,64 +68,29 @@
     align-items: center;
     gap: 1.5rem;
 }
-
 .nav {
-    margin-top: 1.8rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-start;
 }
-
 .nav li {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.8rem;
     padding: 5px;
     list-style-type: none;
 }
-
 .nav a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
-}
-
-.nav a:hover {
     text-shadow: 1px 1px #fff;
-    border-bottom: 2px solid #fff;
-    transition: all .3s ease-in-out;
+    transition: 0.2s ease-in;
 }
-
-.contact__show {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    padding: 20px;
-    background: #781232;
-    z-index: 2;
+.nav a:hover {
+    background-color: #333;
+    padding: 5px;
+    border-radius: 1rem;
 }
-
-.contact__show a:hover {
-    text-shadow: none;
-    border-bottom: none;
-    transition: none;
-}
-
-.contact__hide {
-    display: none;    
-}
-
-.closeContactInfo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 0.2rem;
-    background: #0a021b;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
 .nav__toggler div{
     width: 2rem;
     height: 0.2rem;
@@ -116,16 +98,13 @@
     background: #fff;
     transition: 0.4s ease-in;
 }
-
 .nav__toggler {
     cursor: pointer;
     display: none;
 }
-
 .close__menu {
     display: none;
 }
-
 @media (max-width: 480px) {
     .portifolio-header {
         display: flex;
@@ -162,7 +141,7 @@
         width: 70vw;
         height: 100vh;
         font-size: 1.4rem;
-        background: rgb(7,1,21);
+        background: #333;
         transform: translateX(100%);
         transition: 0.5s ease-in;
         z-index: 3;
@@ -199,11 +178,11 @@
         top: 5vh;
         right: 0;
         padding: 1rem;
-        background-color: #f00e2d;
+        background-color: #000;
         border-radius: 0.5rem;
     }
     .close__menu:hover {
-        background-color: #781232; 
+        background-color: #333; 
     }
 }
 

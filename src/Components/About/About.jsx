@@ -1,5 +1,4 @@
 import './About.css';
-import Avatar from '../Images/wagner1.jpg';
 import Html from '../Images/html.jpg';
 import Css from '../Images/css.jpg';
 import Js from '../Images/js.png';
@@ -20,43 +19,40 @@ const About =()=> {
                         </p>
                     </div>
                 </div>
-                <div className="aboutMeAvatar">
-                    <img src={Avatar} alt="Wagner Miranda" />
-                </div>
-            </div>
-            <div className="tecnologies">
-                <div className="tecnologies-title">
-                    <h2>Principais tecnologioas que utilizo</h2>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>HTML5</h5>
-                    <img src={Html} alt="html" />
-                    <p> Comecei a estudar html em 2021, desenvolvendo tabelas, listas, produzindo textos e interfaces mais simples.</p>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>CSS3</h5>
-                    <img src={Css} alt="css" />
-                    <p> Junto com html, iniciei meus estudos com css em 2021 produzindo interfaces mais estilizadas como landing pages e formulários.</p>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>JavaScript</h5>
-                    <img src={Js} alt="javascript" />
-                    <p> A primeira linguagem que tive contato, comecei com JavaScript em 2022 com desenvolvimento de algorítmos, validação de formulários utilizando RegEx e manipulação do DOM.</p>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>NodeJs</h5>
-                    <img src={Node} alt="node" />
-                    <p> Iniciando em 2022, com Node pude aprimorar conceitos sobre o ambiente JavaScript, também utilizando npm para instalar e gerenciar frameworks e bibliotecas.</p>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>Bootstrap</h5>
-                    <img src={Bootstrap} alt="bootstrap" />
-                    <p> Comecei com Bootstrap também em 2022, através dele pude conhecer ferramentas como modal e slide carousel.</p>
-                </div>
-                <div className="tecnologies-box">
-                    <h5>ReactJs</h5>
-                    <img src={Rct} alt="react" />
-                    <p> Tendo inicio em 2023, com React pude criar projetos dinâmicos com o uso de seus components.</p>
+                <div className="tecnologies">
+                    <div className="tecnologies-title">
+                        <h2>Principais tecnologioas que utilizo</h2>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>HTML5</h5>
+                        <img src={Html} alt="html" />
+                        <p> Comecei a estudar html em 2021, desenvolvendo tabelas, listas, produzindo textos e interfaces mais simples.</p>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>CSS3</h5>
+                        <img src={Css} alt="css" />
+                        <p> Junto com html, iniciei meus estudos com css em 2021 produzindo interfaces mais estilizadas como landing pages e formulários.</p>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>JavaScript</h5>
+                        <img src={Js} alt="javascript" />
+                        <p> A primeira linguagem que tive contato, comecei com JavaScript em 2022 com desenvolvimento de algorítmos, validação de formulários utilizando RegEx e manipulação do DOM.</p>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>NodeJs</h5>
+                        <img src={Node} alt="node" />
+                        <p> Iniciando em 2022, com Node pude aprimorar conceitos sobre o ambiente JavaScript, também utilizando npm para instalar e gerenciar frameworks e bibliotecas.</p>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>Bootstrap</h5>
+                        <img src={Bootstrap} alt="bootstrap" />
+                        <p> Comecei com Bootstrap também em 2022, através dele pude conhecer ferramentas como modal e slide carousel.</p>
+                    </div>
+                    <div className="tecnologies-box">
+                        <h5>ReactJs</h5>
+                        <img src={Rct} alt="react" />
+                        <p> Tendo inicio em 2023, com React pude criar projetos dinâmicos com o uso de seus components.</p>
+                    </div>
                 </div>
             </div>
         </div>

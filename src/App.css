@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 .main {
+    position: relative;
     display: flex;
     flex-direction: column;
-    font-family: Lato;
+    background-color: black;
+}
+.btnTheme {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
 }
