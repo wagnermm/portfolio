@@ -4,7 +4,6 @@
     flex-direction: row;
     justify-content: space-between;
     font-family: Space, Grotesk;
-    color: #fff;
     font-weight: bolder;
     overflow: hidden;
 }
@@ -12,10 +11,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 2rem;
 }
 .title h1 {
     font-size: 4rem;
-    text-shadow: 1px 1px 2px #fff;
+    color: #bbb;
+    text-shadow: 1px 1px 2px #000;
 }
 .aboutMeAvatar {
     width: 100%;
@@ -46,7 +47,7 @@
 .linkedin a, .github a,
 .whatsapp a, .email a {
     display: flex;
-    color: #fff;
+    color: #bbb;
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
@@ -56,10 +57,11 @@
 .linkedin a:hover, .github a:hover,
 .whatsapp a:hover, .email a:hover {
     background-color: #333;
+    box-shadow: 1px 1px 2px #000;
 }
 .linkedin a:visited, .github a:visited,
 .whatsapp a:visited, .email a:visited {
-    color: #fff;
+    color: #bbb;
 }
 .nav__menu, .menu__close {
     display: flex;
@@ -70,6 +72,7 @@
 }
 .nav {
     margin-top: 3rem;
+    padding-right: 2rem;
     display: flex;
     align-items: flex-start;
 }
@@ -80,10 +83,10 @@
     list-style-type: none;
 }
 .nav a {
-    color: #fff;
+    color: #bbb;
     text-decoration: none;
     padding: 5px;
-    text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px #000;
     transition: 0.2s ease-in;
 }
 .nav a:hover {
