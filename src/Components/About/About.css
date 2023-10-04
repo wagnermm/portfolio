@@ -13,10 +13,10 @@
     flex-direction: column;
     overflow-x: hidden;
 }
-
 .aboutMe {
     width: 100%;
     height: auto;
+    padding: 2rem;
     background: #111;
     display: flex;
     flex-direction: column;
@@ -25,22 +25,18 @@
     border: 2px solid #333;
     border-radius: 5px;
 }
-
 .aboutMeDescription {
     width: 700px;
     height: auto;
     display: flex;
     flex-direction: column;
 }
-
-.aboutTitle {
-    font-size: 2rem;
+.aboutTitle h2 {
+    font-size: 3rem;
 }
-
 .aboutText {
     font-size: 1.4rem;
 }
-
 .tecnologies {
     margin-top: 2rem;
     width: 100%;
@@ -51,30 +47,32 @@
     justify-content: center;
     gap: 2rem;
 }
-
-.tecnologies-title {
+.tecnologies-title{
     width: 100%;
     text-align: center;
-    font-size: 1.8rem;
 }
-
+.tecnologies-title h2 {
+    font-size: 3rem;
+}
 .tecnologies-box {
-    gap: 1rem;
     width: 45%;
     height: auto;
     box-shadow: 1px 1px #aaa;
 }
-
 .tecnologies-box img {
     width: 35%;
     height: 180px;
     border: 1px solid #fff;
     border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
     .aboutMe {
         padding: 5px;
+    }
+    .aboutText p {
+        font-size: 1.2rem;
     }
     .aboutMeDescription {
         width: 100%;

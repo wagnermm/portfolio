@@ -47,7 +47,7 @@
         margin-top: 1rem;
     }
     .infoText h2 {
-        font-size: 1.2rem !important;
+        font-size: 1.3rem !important;
         overflow-wrap: break-word;
     }
     .infoText p {
@@ -72,6 +72,7 @@
         font-size: 1.6rem;
     }
     .infoText p {
+        font-size: 1.2rem;
         width: 100%;
     }
 }

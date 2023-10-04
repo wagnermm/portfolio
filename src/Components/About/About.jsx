@@ -21,7 +21,7 @@ const About =()=> {
                 </div>
                 <div className="tecnologies">
                     <div className="tecnologies-title">
-                        <h2>Principais tecnologioas que utilizo</h2>
+                        <h2>Minhas skills</h2>
                     </div>
                     <div className="tecnologies-box">
                         <h5>HTML5</h5>

@@ -8,10 +8,12 @@
     overflow: hidden;
 }
 .title {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 2rem;
+    gap: 1rem;
 }
 .title h1 {
     font-size: 4rem;
@@ -58,6 +60,7 @@
 .linkedin a:hover, .github a:hover,
 .whatsapp a:hover, .email a:hover {
     background-color: #333;
+    color: #bbb;
     box-shadow: 1px 1px 2px #000;
 }
 .linkedin a:visited, .github a:visited,
@@ -94,6 +97,9 @@
     background-color: #333;
     padding: 5px;
     border-radius: 1rem;
+}
+.nav a:visited {
+    color: #bbb;
 }
 .nav__toggler div{
     width: 2rem;
@@ -134,8 +140,14 @@
         justify-content: center;
         align-items: center;
     }
+    .title {
+        padding: 0;
+    }
     .title h1 {
         font-size: 35px;
+    }
+    .nav {
+        padding: 0;
     }
     .nav__menu {
         flex-direction: column;
@@ -154,7 +166,7 @@
         flex-direction: column;  
     }
     .nav__menu li {
-        font-size: 1.4rem;
+        font-size: 3rem;
         text-align: center;
         margin-bottom: 2.5rem;
     }
@@ -183,6 +195,7 @@
         right: 0;
         padding: 1rem;
         background-color: #000;
+        color: #bbb;
         border-radius: 0.5rem;
     }
     .close__menu:hover {
