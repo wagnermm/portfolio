@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.59628a29.css",
-    "main.js": "/portfolio/static/js/main.91033ed0.js",
+    "main.css": "/portfolio/static/css/main.7ee741fb.css",
+    "main.js": "/portfolio/static/js/main.639c6c2c.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
     "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
+    "static/media/wagner.jpg": "/portfolio/static/media/wagner.4221df2c0d7e7b393e7c.jpg",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.21c4b8805fff51b47615.png",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.b34eade29b56f0e289db.png",
     "static/media/logo.jpg": "/portfolio/static/media/logo.98a48dbe89f27ee58a31.jpg",
-    "static/media/wagner1.jpg": "/portfolio/static/media/wagner1.8d09b408f59274cd9457.jpg",
     "static/media/js.png": "/portfolio/static/media/js.94c944348b72697d358d.png",
     "static/media/confectonery.png": "/portfolio/static/media/confectonery.c19bb17ab3b42007bfae.png",
     "static/media/css.jpg": "/portfolio/static/media/css.0423886c3f93afa39e2e.jpg",
@@ -19,12 +19,12 @@
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
-    "main.59628a29.css.map": "/portfolio/static/css/main.59628a29.css.map",
-    "main.91033ed0.js.map": "/portfolio/static/js/main.91033ed0.js.map",
+    "main.7ee741fb.css.map": "/portfolio/static/css/main.7ee741fb.css.map",
+    "main.639c6c2c.js.map": "/portfolio/static/js/main.639c6c2c.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59628a29.css",
-    "static/js/main.91033ed0.js"
+    "static/css/main.7ee741fb.css",
+    "static/js/main.639c6c2c.js"
   ]
 }
