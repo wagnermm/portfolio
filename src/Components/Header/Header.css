@@ -31,6 +31,7 @@
 }
 .title p {
     font-size: 1.2rem;
+    color: #bbb;
 }
 .main-social {
     display: flex;
