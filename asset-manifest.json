@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7d9f9ae1.css",
-    "main.js": "/portfolio/static/js/main.1ae401c4.js",
+    "main.css": "/portfolio/static/css/main.bd099a96.css",
+    "main.js": "/portfolio/static/js/main.c7d9db6d.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
     "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
@@ -19,12 +19,12 @@
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
-    "main.7d9f9ae1.css.map": "/portfolio/static/css/main.7d9f9ae1.css.map",
-    "main.1ae401c4.js.map": "/portfolio/static/js/main.1ae401c4.js.map",
+    "main.bd099a96.css.map": "/portfolio/static/css/main.bd099a96.css.map",
+    "main.c7d9db6d.js.map": "/portfolio/static/js/main.c7d9db6d.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d9f9ae1.css",
-    "static/js/main.1ae401c4.js"
+    "static/css/main.bd099a96.css",
+    "static/js/main.c7d9db6d.js"
   ]
 }
