@@ -15,7 +15,7 @@
     margin-bottom: 2rem;
 }
 .project-header h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .project-body {
     width: 100%;
@@ -37,6 +37,7 @@
     border: 1px solid #000;
     width: 25%;
     padding: 1rem;
+    border-radius: 5px;
 }
 .project-name {
     width: 100%;
@@ -81,10 +82,11 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background: #001;
+    background: linear-gradient(200deg, rgba(16,151,140,1) 21%, rgba(247,71,1,1) 87%);
     transform: translatey(-120%);
     transition: 1s ease-in;
     border: 1px solid #aaa;
+    border-radius: 5px;
 }
 .project-visible {
     transform: translateX(0);
@@ -93,6 +95,7 @@
 .project-description-4 p, .project-description-5 p, .project-description-6 p,
 .project-description-7 p, .project-description-8 p, .project-description-9 p {
     color: #fff;
+    text-shadow: #000;
     font-size: 1.1rem;
     font-weight: bolder;
 }
@@ -115,7 +118,7 @@
 .closeProject {
     width: 1.2rem;
     font-size: 1rem;
-    background-color: #aa0017;
+    background: rgba(247,71,1,1);
     color: #fff;
     border-radius: 0.2rem;
     cursor: pointer;
@@ -169,38 +172,42 @@
     gap: 2rem;
 }
 .btn-project {
-    background: #f00e2d;
+    background: #f74701;
     padding: 0.3rem;
-    border-radius: 0.5rem;
+    border: none;
+    border-radius: 1rem 0 0 0;
     color: #fff;
 }
 .btn-project:hover {
-    background: #aa0017;
+    background: rgb(110, 32, 0);
 }
 .project-link a {
     text-decoration: none;
     color: #fff;
 }
 .btn-code {
-    background: #100231;
+    background: #10978c;
     padding: 0.3rem;
-    border-radius: 0.5rem;
+    border: none;
+    border-radius: 0 0 1rem 0;
 }
 .btn-code:hover {
-    background: #070115;
+    background: #09413c;
 }
 .top {
     width: 100%;
-    margin-top: 3rem;
     text-align: center;
     padding: 5px;
 }
 .top a {
-    color: #bbb;
+    color: #ddd;
+    font-size: 0.8rem;
+    padding: 5px;
     text-decoration: none;
 }
 .top a:hover {
-    text-shadow: 1px 1px 1px #fff;
+    background-color: #09413c;
+    border-radius: 1rem;
 }
 @media (max-width: 480px) {
     .project-title {

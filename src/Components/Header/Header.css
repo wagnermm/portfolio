@@ -33,7 +33,7 @@
 }
 .title p {
     font-size: 1.2rem;
-    color: #bbb;
+    color: #1cffff;
 }
 .main-social {
     display: flex;
@@ -55,18 +55,15 @@
     padding: 5px;
     cursor: pointer;
     font-size: 35px;
+    text-shadow: 1px 1px 2px #000;
     transition: 0.2s ease-in;
 }
 .linkedin a:hover, .github a:hover,
 .whatsapp a:hover, .email a:hover {
     background-color: #333;
-    color: #bbb;
-    box-shadow: 1px 1px 2px #000;
+    color: #1cffff;
 }
-.linkedin a:visited, .github a:visited,
-.whatsapp a:visited, .email a:visited {
-    color: #bbb;
-}
+
 .nav__menu, .menu__close {
     display: flex;
     flex-direction: row;
@@ -94,7 +91,7 @@
     transition: 0.2s ease-in;
 }
 .nav a:hover {
-    background-color: #333;
+    background-color: #09413c;
     padding: 5px;
     border-radius: 1rem;
 }

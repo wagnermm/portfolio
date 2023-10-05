@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #333;
+    border: 2px solid #09413c;
     border-radius: 5px;
 }
 .aboutMeDescription {
@@ -57,7 +57,7 @@
 .tecnologies-box {
     width: 45%;
     height: auto;
-    box-shadow: 1px 1px #aaa;
+    box-shadow: 1px 1px #1cffff;
 }
 .tecnologies-box img {
     width: 35%;
