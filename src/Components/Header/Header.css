@@ -204,10 +204,8 @@
 }
 
 @media (max-width: 1024px) {
-    .portifolio-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .nav {
+        margin-top: 2rem;
     }
     .title h1 {
         font-size: 40px;

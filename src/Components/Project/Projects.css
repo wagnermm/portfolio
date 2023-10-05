@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,400&display=swap');
 .projects {
     width: 100%;
     margin-top: 4rem;
@@ -26,6 +27,7 @@
     gap: 2rem;
 }
 .project-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,6 +67,58 @@
 .project-image img:hover {
     opacity: 65%;
     transition: 5 ease-in-out;
+}
+.project-description-1, .project-description-2, .project-description-3,
+.project-description-4, .project-description-5, .project-description-6,
+.project-description-7, .project-description-8, .project-description-9 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    font-family: Barlow Condensed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background: #001;
+    transform: translatey(-120%);
+    transition: 1s ease-in;
+    border: 1px solid #aaa;
+}
+.project-visible {
+    transform: translateX(0);
+}
+.project-description-1 p, .project-description-2 p, .project-description-3 p,
+.project-description-4 p, .project-description-5 p, .project-description-6 p,
+.project-description-7 p, .project-description-8 p, .project-description-9 p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.project-tecnology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.closeDetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.closeProject {
+    width: 1.2rem;
+    font-size: 1rem;
+    background-color: #aa0017;
+    color: #fff;
+    border-radius: 0.2rem;
+    cursor: pointer;
 }
 .bootstrap-icon {
     color: #8702c5;
@@ -118,6 +172,7 @@
     background: #f00e2d;
     padding: 0.3rem;
     border-radius: 0.5rem;
+    color: #fff;
 }
 .btn-project:hover {
     background: #aa0017;
@@ -155,10 +210,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .project-content {
-        width: 100% !important;
-        margin-bottom: 1rem;
-    }
     .project-image img {
         width: 200px !important;
         height: 150px !important;
@@ -186,6 +237,14 @@
     .carousel-control-prev-icon, .carousel-control-next {
         visibility: hidden;
     }
+    .project-description-1, .project-description-2, .project-description-3,
+    .project-description-4, .project-description-5, .project-description-6,
+    .project-description-7, .project-description-8, .project-description-9 {
+        visibility: hidden;
+    }
+    .project-visible {
+        visibility: visible;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -199,5 +258,8 @@
         width: 100px;
         height: 3rem;
         padding: 0;
+    }
+    .project-tecnology {
+        font-size: 1.4rem;
     }
 }
