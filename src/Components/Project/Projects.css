@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    gap: 2rem;
 }
 .project-content {
     display: flex;
@@ -152,9 +153,7 @@
     }
     .project-body {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
     }
     .project-content {
         width: 100% !important;
@@ -169,16 +168,19 @@
 @media (max-width: 768px) {
     .project-body {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
     }
     .project-content {
         width: 100%;
     }
+    .project-image img {
+        width: 400px;
+        height: 300px;
+    }
     .btn-code, .btn-project {
         width: 100px;
-        height: 30px;
+        height: 2rem !important;
         padding: 0;
     }
     .carousel-control-prev-icon, .carousel-control-next {
@@ -192,5 +194,10 @@
     }
     .project-content p {
         font-size: 1rem;
+    }
+    .btn-code, .btn-project {
+        width: 100px;
+        height: 3rem;
+        padding: 0;
     }
 }
