@@ -16,6 +16,9 @@
 }
 .project-header h1 {
     font-size: 4rem;
+    background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .project-body {
     width: 100%;
@@ -177,9 +180,10 @@
     border: none;
     border-radius: 1rem 0 0 0;
     color: #fff;
+    border-color: 2px solid #10978c;
 }
 .btn-project:hover {
-    background: rgb(110, 32, 0);
+    background: rgb(156, 45, 1);
 }
 .project-link a {
     text-decoration: none;

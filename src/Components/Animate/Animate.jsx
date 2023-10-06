@@ -66,10 +66,10 @@ const Animate = ()=> {
                         "type": "circle"
                     },
                     "onHover": {
-                        "enable": false,
+                        "enable": true,
                         "mode": [],
                         "parallax": {
-                            "enable": false,
+                            "enable": true,
                             "force": 2,
                             "smooth": 10
                         }
@@ -219,7 +219,7 @@ const Animate = ()=> {
                     }
                 },
                 "color": {
-                    "value": "#fff",
+                    "value": "#1cffff",
                     "animation": {
                         "h": {
                             "count": 0,
