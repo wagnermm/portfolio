@@ -17,7 +17,7 @@ const Header =()=> {
       close === "menu__close" ? setClose('menu__close nav__active') : setClose("menu__close");
       active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
       toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler');
-    }
+    };
     return(
         <div className="portifolio-header">
           <div className='title'>
