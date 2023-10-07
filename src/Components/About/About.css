@@ -135,6 +135,9 @@
         flex-wrap: wrap;
         gap: 2rem;
     }
+    .tecnologies-box img {
+        height: 80px;
+    }
 }
 
 @media (max-width: 1024px) {

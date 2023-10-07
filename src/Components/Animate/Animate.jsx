@@ -71,7 +71,7 @@ const Animate = ()=> {
                         "parallax": {
                             "enable": true,
                             "force": 2,
-                            "smooth": 10
+                            "smooth": 1000
                         }
                     },
                     "resize": {
