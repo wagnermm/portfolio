@@ -79,6 +79,7 @@
 }
 .skill-list:hover {
     background-color: #f74701;
+    border: none;
 }
 .ether {
     width: 1rem;
