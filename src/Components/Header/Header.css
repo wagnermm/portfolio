@@ -17,8 +17,9 @@
 }
 .title h1 {
     font-size: 4rem;
-    color: #bbb;
-    text-shadow: 1px 1px 2px #000;
+    background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .aboutMeAvatar {
     width: 100%;
@@ -88,7 +89,7 @@
     text-decoration: none;
     padding: 5px;
     text-shadow: 1px 1px #000;
-    transition: 0.2s ease-in;
+    transition: 0.3s ease-in;
 }
 .nav a:hover {
     background-color: #09413c;
@@ -166,6 +167,7 @@
         font-size: 3rem;
         text-align: center;
         margin-bottom: 2.5rem;
+        border-bottom: 1px solid #1cffff;
     }
     .nav a:hover {
         border: none;
@@ -191,8 +193,8 @@
         top: 5vh;
         right: 0;
         padding: 1rem;
-        background-color: #09413c;
-        color: #ddd;
+        background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);;
+        color: #000;
         border-radius: 0.5rem;
     }
     .close__menu:hover {

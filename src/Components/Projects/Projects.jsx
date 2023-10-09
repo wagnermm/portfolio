@@ -100,7 +100,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectOne} className="closeProject">X</div>
                                 </div>
-                                <p>Um dos primeiros projetos criados. Uma confeitaria desenvolvida com bootstrap, explorando conceitos de modal, slide carousel e um design de cores que faz referência a seus produtos. (Projeto em andamento)</p>
+                                <p>Confeitaria desenvolvida com bootstrap, explorando algumas de suas ferramentas como modal, slide carousel, components e forms. (Projeto em andamento)</p>
                                 <div className="project-tecnology">
                                     <div className="bootstrap-icon">
                                         <FaBootstrap/>
@@ -129,7 +129,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectTwo} className="closeProject">X</div>
                                 </div>
-                                <p>Jogo do Mario desenvolvido em javascript. Com funções e keyframes é possivel manipular o personagem clicando na tela. Se o Mario não pular sobre o obstáculo, a animação se encerrará e uma imagem de game over será exibida.</p>
+                                <p>Jogo do Mario desenvolvido em javascript. Com funções e keyframes é possivel manipular o personagem clicando na tela. Se o Mario não pular sobre o obstáculo, a animação se encerrará.</p>
                                 <div className="project-tecnology">
                                     <div className="css-icon">
                                         <IoLogoCss3/>
@@ -155,7 +155,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectThree} className="closeProject">X</div>
                                 </div>
-                                <p>Uma barbearia, desenvolvida com html, css e javascript e um design característico de uma barbershop. Nesse projeto utilizei o owl carousel para exibir os cortes e um formulário para os clientes agendarem um horário.</p>
+                                <p>Uma barbearia, desenvolvida com html, css e javascript. Nesse projeto utilizei um plugin jQuery para exibir os cortes e um formulário para os clientes agendarem um horário.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -217,7 +217,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectFive} className="closeProject">X</div>
                                 </div>
-                                <p>Nessa tela de login temos uma apresentação de um layout responsivo e um design gráfico muito compreensível, explorando conceitos after e before do css, além de regex para validar o formulário.</p>
+                                <p>Nessa tela de login temos a apresentação de um layout responsivo e um design gráfico muito compreensível para o usuário, além da validação com o uso do regex.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -279,7 +279,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectSeven} className="closeProject">X</div>
                                 </div>
-                                <p>Um cartão que pode interagir com o usuário que pode cadastrar o seu cartão e ver o preenchimento automático. Não há back-end para salvar os dados, esta aplicação somente exibe a interfácie e valida os campos de entrada.</p>
+                                <p>O cartão virtual interage com o usuário que pode ver o preenchimento automático na tela. Não há back-end para salvar os dados, esta aplicação somente exibe a interfácie e valida os campos de entrada.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -308,7 +308,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectEight} className="closeProject">X</div>
                                 </div>
-                                <p>Projeto web page de uma loja de colares artesanais. Nesse projeto pude aprender mais sobre jQery e alguns de seus mais importantes plugis, como owl carousel e jquery validate.</p>
+                                <p>Web page de uma loja de colares artesanais. Nesse projeto pude aprender mais sobre jQery e alguns de seus mais importantes plugis, como owl carousel e jquery validate.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -337,7 +337,7 @@ const Projects = ()=> {
                                 <div className="closeDetail">
                                     <div onClick={closeProjectNine} className="closeProject">X</div>
                                 </div>
-                                <p>Um projeto desenvolvido com vite e react e nele pude criar uma loja virtual com mais opções. Também pude importar o react-bootstrap para utilizar alguns carousels e assim exibir melhor os produtos da loja. (Projeto em andamento)</p>
+                                <p>Uma loja virtual desenvolvida com Vite/React.js. Utilizando react-bootstrap para exibir melhor os produtos da loja atravéz de carousels. (Projeto em andamento)</p>
                                 <div className="project-tecnology">
                                     <div className="vite-logo">
                                         <SiVitess/>

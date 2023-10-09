@@ -69,7 +69,7 @@
     height: auto;
     padding: 2rem;
     color: #fff;
-    border-bottom: 1px solid #1cffff;
+    border-bottom: 1px solid #09413c;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -78,7 +78,7 @@
     transition: 0.3s ease-in;
 }
 .skill-list:hover {
-    background-color: #f74701;
+    background-color: #09413c;
     border: none;
 }
 .ether {
@@ -88,8 +88,8 @@
     border-radius: 100%;
     display: flex;
     justify-content: center;
+    background-color: #09413c;
     align-items: center;
-    background-color: #f74701;
     color: #fff;
 }
 .technologies {
