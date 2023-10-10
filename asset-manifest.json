@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.36c54ed0.css",
-    "main.js": "/portfolio/static/js/main.5752edce.js",
+    "main.css": "/portfolio/static/css/main.48af802f.css",
+    "main.js": "/portfolio/static/js/main.f6eba67c.js",
     "static/js/787.aae35923.chunk.js": "/portfolio/static/js/787.aae35923.chunk.js",
     "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
-    "static/media/wagner.jpg": "/portfolio/static/media/wagner.4221df2c0d7e7b393e7c.jpg",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.5e9e35b0a13cc4043afe.jpg",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.21c4b8805fff51b47615.png",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.b34eade29b56f0e289db.png",
     "static/media/logo.jpg": "/portfolio/static/media/logo.98a48dbe89f27ee58a31.jpg",
@@ -20,12 +20,12 @@
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
-    "main.36c54ed0.css.map": "/portfolio/static/css/main.36c54ed0.css.map",
-    "main.5752edce.js.map": "/portfolio/static/js/main.5752edce.js.map",
+    "main.48af802f.css.map": "/portfolio/static/css/main.48af802f.css.map",
+    "main.f6eba67c.js.map": "/portfolio/static/js/main.f6eba67c.js.map",
     "787.aae35923.chunk.js.map": "/portfolio/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c54ed0.css",
-    "static/js/main.5752edce.js"
+    "static/css/main.48af802f.css",
+    "static/js/main.f6eba67c.js"
   ]
 }
