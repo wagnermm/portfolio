@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 .title {
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,9 +28,7 @@
     align-items: center;
 }
 .aboutMeAvatar img {
-    width: 40%;
-    border: 1px solid #fff;
-    border-radius: 1rem;
+    width: 250px;
 }
 .title p {
     font-size: 1.2rem;
@@ -167,7 +165,6 @@
         font-size: 3rem;
         text-align: center;
         margin-bottom: 2.5rem;
-        border-bottom: 1px solid #1cffff;
     }
     .nav a:hover {
         border: none;

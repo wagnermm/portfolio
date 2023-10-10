@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Avatar from '../Images/wagner.jpg';
+import Avatar from '../Images/avatar.jpg';
 import './Header.css';
 import {BsWhatsapp} from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
