@@ -18,7 +18,7 @@ const About =()=> {
                         <h2>Sobre mim</h2>
                     </div>
                     <div className="aboutText">
-                        <p>Amo tecnologia e gosto de entender como ela funciona. Em 2021 iniciei o curso Front-End na EBAC, pude aprender sobre <span className='colorText'>UX/UI</span>, além das principais tecnologias como <span className='colorText'>JavaScript</span>, e compreender conceitos de <span className='colorText'>OOP</span>. Em 2023 comecei a cursar Análise e Desenvolvimento de Sistemas, com isso pude aperfeiçoar conhecimentos técnicos e conhecer mais sobre <span className='colorText'>metodologias ágeis</span>. Ainda busco uma oportunidade de trabalho onde eu possa me desenvolver ainda mais e compartilhar conhecimentos com outras pessoas.
+                        <p>Amo tecnologia e gosto de entender como ela funciona. Em 2021 iniciei o curso Front-End na EBAC, pude aprender sobre <span className='colorText'>UX/UI</span>, além das principais tecnologias como <span className='colorText'>JavaScript e React.JS</span>, e compreender conceitos de <span className='colorText'>OOP</span>. Atualmente curso Análise e Desenvolvimento de Sistemas, com isso venho aperfeiçoando conhecimentos técnicos e conhecendo mais sobre <span className='colorText'>metodologias ágeis</span>. Busco uma oportunidade de trabalho onde eu possa me desenvolver ainda mais e compartilhar conhecimentos.
                         </p>
                     </div>
                 </div>
