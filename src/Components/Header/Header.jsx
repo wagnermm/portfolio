@@ -47,6 +47,7 @@ const Header =()=> {
             <ul className={active}>
             <div onClick={closeMenu} className="close__menu">X</div>
               <div className={close}>
+                <li className='nav__item' id="topo"><a href="#top">Topo</a></li>
                 <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
                 <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
               </div>

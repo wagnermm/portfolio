@@ -98,6 +98,9 @@
 .nav a:visited {
     color: #bbb;
 }
+#topo {
+    display: none;
+}
 .nav__toggler div{
     width: 2rem;
     height: 0.2rem;
@@ -158,6 +161,9 @@
         transform: translateX(100%);
         transition: 0.5s ease-in;
         z-index: 3;
+    }
+    #topo {
+        display: block;
     }
     .menu__close {
         flex-direction: column;  
