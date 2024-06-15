@@ -18,14 +18,15 @@ const About =()=> {
                         <h2>Sobre mim</h2>
                     </div>
                     <div className="aboutText">
-                        <p>Sou apaixonado por tecnologia e sempre procurei entender como ela funciona. Durante meu curso Front-End na EBAC em 2021, aprendi a utilizar algumas das mais importantes tecnologias como <span className='colorText'>JavaScript e React.JS</span>, além de conceitos de <span className='colorText'>UX/UI</span>, também pude compreender sobre <span className='colorText'>OOP</span>. Atualmente estou cursando Análise e Desenvolvimento de Sistemas, com isso venho aperfeiçoando conhecimentos técnicos e aprendendo mais sobre metodologias ágeis como <span className='colorText'>Scrum e Kanban</span>. Busco uma oportunidade de trabalho onde eu possa me desenvolver ainda mais e compartilhar conhecimentos.
+                        <p>
+                            Sou desenvolvedor front-end e trebalho com React tendo experiência na criação de interfaces de usuário dinâmicas e responsivas. Apaixonado por tecnologia e inovação, tenho uma forte habilidade em transformar designs complexos em componentes reutilizáveis e eficientes. Meu objetivo é sempre criar experiências de usuário intuitivas e funcionais.
                         </p>
                     </div>
                 </div>
                 <div className="skills">
                     <div className="skills-content">
                         <div className="skills-title">
-                            <h2>Minhas skills</h2>
+                            <h2>Skills</h2>
                         </div>
                         <div className="skill-list">
                             <span className="ether"><FaCheck/></span>
@@ -33,19 +34,19 @@ const About =()=> {
                         </div>
                         <div className="skill-list">
                             <span className="ether"><FaCheck/></span>
-                            <p>Criação de tabelas, listas, news letter, landing pages e web pages.</p>
+                            <p>Scrum, kanban, jira, postman.</p>
                         </div>
                         <div className="skill-list">
                             <span className="ether"><FaCheck/></span>
-                            <p>Variáveis, form validate, RegEx, DOM, Classes, Objetos e OOP </p>
+                            <p>GitFlow, gitBash, gitLab.</p>
                         </div>
                         <div className="skill-list">
                             <span className="ether"><FaCheck/></span>
-                            <p>Frameworks, bibliotecas, npm e plugins.</p>
+                            <p>Form validate, APIs, RegEx, DOM.</p>
                         </div>
                         <div className="skill-list">
                             <span className="ether"><FaCheck/></span>
-                            <p>React componentes e Hooks.</p>
+                            <p>Frameworks, libs, npm, plugins.</p>
                         </div>
                     </div>
                     <div className="technologies">

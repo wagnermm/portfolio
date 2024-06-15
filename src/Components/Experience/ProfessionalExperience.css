@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.professionalContainer {
+    max-width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+    font-family: Space, Grotesk;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.titleProfession {
+    padding: 1rem;
+}
+
+.titleProfession h2 {
+    font-size: 3rem;
+    background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.professionalExperience {
+    padding: 1rem;
+}
+
+.professionalExperience h3 {
+    background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.professionalExperience h5 {
+    text-shadow: 1px 1px 1px #000;
+}
+

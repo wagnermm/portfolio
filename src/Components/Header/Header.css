@@ -2,7 +2,7 @@
 .portifolio-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: Space, Grotesk;
     font-weight: bolder;
     overflow: hidden;

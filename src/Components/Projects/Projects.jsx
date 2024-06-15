@@ -84,7 +84,7 @@ const Projects = ()=> {
     return(
         <div className='projects' id='projects'>
             <div className="project-header">
-                <h1>Projetos</h1>
+                <h2>Projetos</h2>
             </div>
             <Carousel>
                 <Carousel.Item>

@@ -1,0 +1,31 @@
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.btn-download {
+    background: linear-gradient(-200deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    font-size: 26px;
+    width: 160px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 75%;
+    border: none;
+}
+
+.btn-download:hover {
+    opacity: 100%;
+}
+
+.btn-download a {
+    color: #fff;
+    text-decoration: none;
+}

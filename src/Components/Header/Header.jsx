@@ -49,6 +49,7 @@ const Header =()=> {
               <div className={close}>
                 <li className='nav__item' id="topo"><a href="#top">Topo</a></li>
                 <li className='nav__item' id="sobre"><a href="#about">Sobre</a></li>
+                <li className='nav__item'><a href="#experience">Experiência</a></li>
                 <li className='nav__item' id="projeto"><a href="#projects">Projetos</a></li>
               </div>
             </ul>
