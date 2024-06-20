@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 import Carousel from 'react-bootstrap/Carousel';
 import './Projects.css';
 import LogoConfectonery from '../Images/confectonery.png';
@@ -94,7 +96,12 @@ const Projects = ()=> {
                                 <h3>Confeitaria</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={oneProject}>
                                 <div className="closeDetail">
@@ -114,7 +121,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectOne} className="btn-project">Detalhes</button>
+                                <button onClick={openProjectOne} className="btn-project">Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/brigadeiros-paes" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -122,8 +129,13 @@ const Projects = ()=> {
                             <div className="project-name">
                                 <h3>Mario Jump</h3>
                             </div>
-                            <div className="project-image">  
-                                <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
+                            <div className="project-image">
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={twoProject}>
                                 <div className="closeDetail">
@@ -140,7 +152,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectTwo} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectTwo} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/mario-game" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -149,7 +161,12 @@ const Projects = ()=> {
                                 <h3>BarberShop</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://www.fiodanavalha.great-site.net/" target='blank'><img src={LogoBarberShop} alt="logo-barbearia"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://www.fiodanavalha.great-site.net/" target='blank'><img src={LogoBarberShop} alt="logo-barbearia"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={threeProject}>
                                 <div className="closeDetail">
@@ -169,7 +186,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectThree} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectThree} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/barbershop" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -182,7 +199,12 @@ const Projects = ()=> {
                                 <h3>Calculator</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={fourProject}>
                                 <div className="closeDetail">
@@ -202,7 +224,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectFour} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectFour} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/calculator-js" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -211,7 +233,12 @@ const Projects = ()=> {
                                 <h3>Tela de Login</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/form-login/" target='blank'><img src={TelaLogin} alt="Telalogin"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/form-login/" target='blank'><img src={TelaLogin} alt="Telalogin"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={fiveProject}>
                                 <div className="closeDetail">
@@ -231,7 +258,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectFive} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectFive} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/form-login/tree/main" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -240,7 +267,12 @@ const Projects = ()=> {
                                 <h3>Advocacia</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="phLogo"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="phLogo"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={sixProject}>
                                 <div className="closeDetail">
@@ -260,7 +292,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectSix} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectSix} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/law-firm" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -273,7 +305,12 @@ const Projects = ()=> {
                                 <h3>Interactive Card</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/interactive-card/" target='blank'><img src={interactiveCard} alt="interactive card"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/interactive-card/" target='blank'><img src={interactiveCard} alt="interactive card"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={sevenProject}>
                                 <div className="closeDetail">
@@ -293,7 +330,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectSeven} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectSeven} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/interactive-card" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -302,7 +339,12 @@ const Projects = ()=> {
                                 <h3>Crystaline</h3>
                             </div>
                             <div className="project-image">
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
                                 <a href="https://wagnermm.github.io/web-store/" target='blank'><img src={WebStore} alt="loja"/></a>
+                            </OverlayTrigger>
                             </div>
                             <div className={eightProject}>
                                 <div className="closeDetail">
@@ -322,7 +364,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectEight} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectEight} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/web-store" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
@@ -331,7 +373,12 @@ const Projects = ()=> {
                                 <h3>Net Web</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/netweb/" target='blank'><img src={NetWeb} alt="net web"/></a>
+                                <OverlayTrigger
+                                    placement="top"
+                                    overlay={<Tooltip>Ver projeto</Tooltip>}
+                                    >
+                                    <a href="https://wagnermm.github.io/netweb/" target='blank'><img src={NetWeb} alt="net web"/></a>
+                                </OverlayTrigger>
                             </div>
                             <div className={nineProject}>
                                 <div className="closeDetail">
@@ -351,7 +398,7 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectNine} className='btn-project'>Detalhes</button>
+                                <button onClick={openProjectNine} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/netweb" target='blank'>Ver Código</a></button>
                             </div>
                         </div>

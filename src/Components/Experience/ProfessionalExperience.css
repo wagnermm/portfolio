@@ -36,3 +36,9 @@
     text-shadow: 1px 1px 1px #000;
 }
 
+@media(max-width: 768px) {
+    .professionalContainer {
+        text-align: center;
+    }
+}
+
