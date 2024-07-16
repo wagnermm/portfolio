@@ -1,32 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6ba485b.css",
-    "main.js": "/portfolio/static/js/main.89ad9536.js",
+    "main.css": "/portfolio/static/css/main.55adc61a.css",
+    "main.js": "/portfolio/static/js/main.b525842a.js",
     "static/js/787.7fc4d7cc.chunk.js": "/portfolio/static/js/787.7fc4d7cc.chunk.js",
-    "static/media/telalogin.png": "/portfolio/static/media/telalogin.7920bca4ad47d4da30b3.png",
     "static/media/html.jpg": "/portfolio/static/media/html.07ccd49b8e859eb3b953.jpg",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.5e9e35b0a13cc4043afe.jpg",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.21c4b8805fff51b47615.png",
+    "static/media/brigadeiros.jpg": "/portfolio/static/media/brigadeiros.aeed25666c25424b438e.jpg",
+    "static/media/barber.jpg": "/portfolio/static/media/barber.107d8fa3914e941dff33.jpg",
+    "static/media/ph.jpg": "/portfolio/static/media/ph.e41678930f7853113445.jpg",
     "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.3070575e1bbfc9d3284a.pdf",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.b34eade29b56f0e289db.png",
-    "static/media/logo.jpg": "/portfolio/static/media/logo.98a48dbe89f27ee58a31.jpg",
     "static/media/js.png": "/portfolio/static/media/js.94c944348b72697d358d.png",
-    "static/media/confectonery.png": "/portfolio/static/media/confectonery.c19bb17ab3b42007bfae.png",
     "static/media/css.jpg": "/portfolio/static/media/css.0423886c3f93afa39e2e.jpg",
     "static/media/mario.gif": "/portfolio/static/media/mario.b481b80877cb6f0c66ad.gif",
-    "static/media/webstore.jpg": "/portfolio/static/media/webstore.31d42f77285a9265c727.jpg",
-    "static/media/netweb.png": "/portfolio/static/media/netweb.dd6ec6769954bd179625.png",
     "static/media/jquery.jpg": "/portfolio/static/media/jquery.af1d3468d439046be864.jpg",
     "static/media/node.jpg": "/portfolio/static/media/node.74576ea4f2775c3d0206.jpg",
     "static/media/calculator.gif": "/portfolio/static/media/calculator.d520a62f12e0b06d1b3f.gif",
     "static/media/react.jfif": "/portfolio/static/media/react.2053f78f1d04604e5991.jfif",
     "index.html": "/portfolio/index.html",
-    "main.e6ba485b.css.map": "/portfolio/static/css/main.e6ba485b.css.map",
-    "main.89ad9536.js.map": "/portfolio/static/js/main.89ad9536.js.map",
+    "main.55adc61a.css.map": "/portfolio/static/css/main.55adc61a.css.map",
+    "main.b525842a.js.map": "/portfolio/static/js/main.b525842a.js.map",
     "787.7fc4d7cc.chunk.js.map": "/portfolio/static/js/787.7fc4d7cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6ba485b.css",
-    "static/js/main.89ad9536.js"
+    "static/css/main.55adc61a.css",
+    "static/js/main.b525842a.js"
   ]
 }
