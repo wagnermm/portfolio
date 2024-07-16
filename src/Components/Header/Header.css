@@ -82,18 +82,28 @@
     padding: 5px;
     list-style-type: none;
 }
+.nav {
+    position: relative;
+}
 .nav a {
     color: #bbb;
     text-decoration: none;
     padding: 5px;
     text-shadow: 1px 1px #000;
-    transition: 0.3s ease-in;
+    position: relative;
 }
-.nav a:hover {
-    background-color: #09413c;
-    padding: 5px;
-    border-radius: 1rem;
-    color: #bbb;
+.nav a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 1px;
+    background-color: #1cffff;
+    transition: width 0.3s;
+}
+.nav a:hover:after {
+    width: 100%;
 }
 .nav a:visited {
     color: #bbb;

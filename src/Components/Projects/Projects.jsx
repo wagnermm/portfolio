@@ -1,23 +1,17 @@
 import React from 'react';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
 import Carousel from 'react-bootstrap/Carousel';
 import './Projects.css';
-import LogoConfectonery from '../Images/confectonery.png';
+import LogoConfectonery from '../Images/brigadeiros.jpg';
 import Mario from '../Images/mario.gif';
-import LogoBarberShop from '../Images/logo.jpg';
+import LogoBarberShop from '../Images/barber.jpg';
 import CalculatorImg from '../Images/calculator.gif';
-import TelaLogin from '../Images/telalogin.png';
-import PHlogo from '../Images/ph.png';
+import PHlogo from '../Images/ph.jpg';
 import interactiveCard from '../Images/interactive-card.png';
-import WebStore from '../Images/webstore.jpg';
-import NetWeb from '../Images/netweb.png';
-import { FaBootstrap, FaSass, FaHtml5, FaReact } from 'react-icons/fa';
+import { FaBootstrap, FaSass, FaHtml5 } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
-import { DiJqueryLogo } from 'react-icons/di';
-import { SiVitess } from 'react-icons/si';
+
 
 const Projects = ()=> {
     const [oneProject, setOneProject] = useState("project-description-1");
@@ -48,13 +42,6 @@ const Projects = ()=> {
     const closeProjectFour = ()=> {
         fourProject === 'project-visible' ? setFourProject('project-description-4 project-visible') : setFourProject('project-description-4');
     };
-    const [fiveProject, setFiveProject] = useState("project-description-5");
-    const openProjectFive = ()=> {
-        fiveProject === 'project-description-5' ? setFiveProject('project-description-5 project-visible') : setFiveProject('project-description-5');
-    };
-    const closeProjectFive = ()=> {
-        fiveProject === 'project-visible' ? setFiveProject('project-description-5 project-visible') : setFiveProject('project-description-5');
-    };
     const [sixProject, setSixProject] = useState("project-description-6");
     const openProjectSix = ()=> {
         sixProject === 'project-description-6' ? setSixProject('project-description-6 project-visible') : setSixProject('project-description-6');
@@ -69,20 +56,6 @@ const Projects = ()=> {
     const closeProjectSeven = ()=> {
         sevenProject === 'project-visible' ? setSevenProject('project-description-7 project-visible') : setSevenProject('project-description-7');
     };
-    const [eightProject, setEightProject] = useState("project-description-8");
-    const openProjectEight = ()=> {
-        eightProject === 'project-description-8' ? setEightProject('project-description-8 project-visible') : setEightProject('project-description-8');
-    };
-    const closeProjectEight = ()=> {
-        eightProject === 'project-visible' ? setEightProject('project-description-8 project-visible') : setEightProject('project-description-8');
-    };
-    const [nineProject, setNineProject] = useState("project-description-9");
-    const openProjectNine = ()=> {
-        nineProject === 'project-description-9' ? setNineProject('project-description-9 project-visible') : setNineProject('project-description-9');
-    };
-    const closeProjectNine = ()=> {
-        nineProject === 'project-visible' ? setNineProject('project-description-9 project-visible') : setNineProject('project-description-9');
-    };
     return(
         <div className='projects' id='projects'>
             <div className="project-header">
@@ -93,21 +66,16 @@ const Projects = ()=> {
                     <div className="project-body">
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Confeitaria</h3>
+                                <h3>Brigaderia</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
-                                </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
                             </div>
                             <div className={oneProject}>
                                 <div className="closeDetail">
                                     <div onClick={closeProjectOne} className="closeProject">X</div>
                                 </div>
-                                <p>Confeitaria desenvolvida com bootstrap, explorando algumas de suas ferramentas como modal, slide carousel, components e forms. (Projeto em andamento)</p>
+                                <p>Brigaderia desenvolvida com bootstrap, explorando algumas de suas ferramentas como modal, slide carousel, components e forms.</p>
                                 <div className="project-tecnology">
                                     <div className="bootstrap-icon">
                                         <FaBootstrap/>
@@ -130,12 +98,7 @@ const Projects = ()=> {
                                 <h3>Mario Jump</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
-                                </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
                             </div>
                             <div className={twoProject}>
                                 <div className="closeDetail">
@@ -158,15 +121,10 @@ const Projects = ()=> {
                         </div>
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>BarberShop</h3>
+                                <h3>Fio da navalha</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://www.fiodanavalha.great-site.net/" target='blank'><img src={LogoBarberShop} alt="logo-barbearia"/></a>
-                                </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/barbershop/" target='blank'><img src={LogoBarberShop} alt="logo-barbearia"/></a>
                             </div>
                             <div className={threeProject}>
                                 <div className="closeDetail">
@@ -196,15 +154,10 @@ const Projects = ()=> {
                     <div className="project-body">
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Calculator</h3>
+                                <h3>Calculadora</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
-                                </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
                             </div>
                             <div className={fourProject}>
                                 <div className="closeDetail">
@@ -230,87 +183,10 @@ const Projects = ()=> {
                         </div>
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Tela de Login</h3>
-                            </div>
-                            <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/form-login/" target='blank'><img src={TelaLogin} alt="Telalogin"/></a>
-                                </OverlayTrigger>
-                            </div>
-                            <div className={fiveProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectFive} className="closeProject">X</div>
-                                </div>
-                                <p>Nessa tela de login temos a apresentação de um layout responsivo e um design gráfico muito compreensível para o usuário, além da validação com o uso do regex.</p>
-                                <div className="project-tecnology">
-                                    <div className="html-logo">
-                                        <FaHtml5/>
-                                    </div>
-                                    <div className="sass-icon">
-                                        <FaSass/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectFive} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/form-login/tree/main" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                        <div className="project-content">
-                            <div className="project-name">
-                                <h3>Advocacia</h3>
-                            </div>
-                            <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="phLogo"/></a>
-                                </OverlayTrigger>
-                            </div>
-                            <div className={sixProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectSix} className="closeProject">X</div>
-                                </div>
-                                <p>Web page inspirada na série Suits, nesse projeto pude aprimorar alguns conceitos em javascript, utilizando um slide com informações no banner principal, além da responsividade e a utilização de favicon.</p>
-                                <div className="project-tecnology">
-                                    <div className="html-logo">
-                                        <FaHtml5/>
-                                    </div>
-                                    <div className="sass-icon">
-                                        <FaSass/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectSix} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/law-firm" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                    </div> 
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="project-body">
-                        <div className="project-content">
-                            <div className="project-name">
                                 <h3>Interactive Card</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/interactive-card/" target='blank'><img src={interactiveCard} alt="interactive card"/></a>
-                                </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/interactive-card/" target='blank'><img src={interactiveCard} alt="interactive card"/></a>
                             </div>
                             <div className={sevenProject}>
                                 <div className="closeDetail">
@@ -336,70 +212,31 @@ const Projects = ()=> {
                         </div>
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Crystaline</h3>
+                                <h3>Advocacia</h3>
                             </div>
                             <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                <a href="https://wagnermm.github.io/web-store/" target='blank'><img src={WebStore} alt="loja"/></a>
-                            </OverlayTrigger>
+                                <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="phLogo"/></a>
                             </div>
-                            <div className={eightProject}>
+                            <div className={sixProject}>
                                 <div className="closeDetail">
-                                    <div onClick={closeProjectEight} className="closeProject">X</div>
+                                    <div onClick={closeProjectSix} className="closeProject">X</div>
                                 </div>
-                                <p>Web page de uma loja de colares artesanais. Nesse projeto pude aprender mais sobre jQery e alguns de seus mais importantes plugis, como owl carousel e jquery validate.</p>
+                                <p>Web page inspirada na série Suits, nesse projeto pude aprimorar alguns conceitos em javascript, utilizando um slide com informações no banner principal, além da responsividade e a utilização de favicon.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
                                     </div>
-                                    <div className="css-icon">
-                                        <IoLogoCss3/>
+                                    <div className="sass-icon">
+                                        <FaSass/>
                                     </div>
-                                    <div className="jquery-icon">
-                                        <DiJqueryLogo/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectEight} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/web-store" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                        <div className="project-content">
-                            <div className="project-name">
-                                <h3>Net Web</h3>
-                            </div>
-                            <div className="project-image">
-                                <OverlayTrigger
-                                    placement="top"
-                                    overlay={<Tooltip>Ver projeto</Tooltip>}
-                                    >
-                                    <a href="https://wagnermm.github.io/netweb/" target='blank'><img src={NetWeb} alt="net web"/></a>
-                                </OverlayTrigger>
-                            </div>
-                            <div className={nineProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectNine} className="closeProject">X</div>
-                                </div>
-                                <p>Uma loja virtual desenvolvida com Vite/React.js. Utilizando react-bootstrap para exibir melhor os produtos da loja atravéz de carousels. (Projeto em andamento)</p>
-                                <div className="project-tecnology">
-                                    <div className="vite-logo">
-                                        <SiVitess/>
-                                    </div>
-                                    <div className="react-logo">
-                                        <FaReact/>
-                                    </div>
-                                    <div className="bootstrap-icon">
-                                        <FaBootstrap/>
+                                    <div className="js-icon">
+                                        <IoLogoJavascript/>
                                     </div>
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectNine} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/netweb" target='blank'>Ver Código</a></button>
+                                <button onClick={openProjectSix} className='btn-project'>Descrição</button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/law-firm" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
                     </div> 

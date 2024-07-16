@@ -65,13 +65,16 @@
 }
 .project-image img {
     width: 180px;
-    height: 150px;
+    height: 130px;
     border: 1px solid #333;
+    opacity: 95%;
     transition: 0.5s ease-in-out;
+    transition: transform 0.5s ease;
     border-radius: 5px;
 }
 .project-image img:hover {
-    opacity: 80%;
+    opacity: 100%;
+    transform: scale(1.1);
 }
 .project-description-1, .project-description-2, .project-description-3,
 .project-description-4, .project-description-5, .project-description-6,
