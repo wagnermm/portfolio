@@ -17,9 +17,19 @@
 }
 .project-header h2 {
     font-size: 4rem;
+    margin-bottom: 4rem;
     background: linear-gradient(0deg, #bbb 0%, #1cffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.carousel-indicators {
+    display: none;
+}
+.carousel-control-prev {
+    left: -5vw;
+}
+.carousel-control-next {
+    right: -5vw;
 }
 .project-body {
     width: 100%;
@@ -37,9 +47,6 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background: #fff;
-    border: 1px solid #000;
-    width: 25%;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -48,7 +55,7 @@
     height: auto;
     text-align: center;
     font-size: 1.4rem;
-    color: #000;
+    color: #ddd;
     font-weight: 600;
 }
 .project-image {
@@ -64,8 +71,8 @@
     gap: 1rem;
 }
 .project-image img {
-    width: 180px;
-    height: 130px;
+    max-width: 100%;
+    height: auto;
     border: 1px solid #333;
     opacity: 95%;
     transition: 0.5s ease-in-out;
@@ -81,9 +88,8 @@
 .project-description-7, .project-description-8, .project-description-9 {
     position: absolute;
     top: 0;
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
+    height: 250px;
+    padding: 2rem;
     font-family: Barlow Condensed;
     display: flex;
     flex-direction: column;
@@ -115,20 +121,6 @@
     font-size: 2rem;
     gap: 1rem;
     margin-bottom: 1rem;
-}
-.closeDetail {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.closeProject {
-    width: 1.2rem;
-    font-size: 1rem;
-    background: #09413c;
-    color: #fff;
-    border: 1px solid #aaa;
-    border-radius: 0.2rem;
-    cursor: pointer;
 }
 .bootstrap-icon {
     color: #8702c5;
@@ -209,21 +201,6 @@
 .btn-code:hover {
     background: #09413c;
 }
-.top {
-    width: 100%;
-    text-align: center;
-    padding: 5px;
-}
-.top a {
-    color: #ddd;
-    font-size: 0.8rem;
-    padding: 5px;
-    text-decoration: none;
-}
-.top a:hover {
-    background-color: #09413c;
-    border-radius: 1rem;
-}
 @media (max-width: 480px) {
     .project-title {
         font-size: 1.5rem;
@@ -231,10 +208,6 @@
     .project-body {
         display: flex;
         flex-wrap: wrap;
-    }
-    .project-image img {
-        width: 200px !important;
-        height: 150px !important;
     }
 }
 
@@ -246,10 +219,6 @@
     }
     .project-content {
         width: 100%;
-    }
-    .project-image img {
-        width: 400px;
-        height: 300px;
     }
     .btn-code, .btn-project {
         width: 100px;
@@ -283,10 +252,5 @@
     }
     .project-tecnology {
         font-size: 1.4rem;
-    }
-    .project-description-1, .project-description-2, .project-description-3,
-    .project-description-4, .project-description-5, .project-description-6,
-    .project-description-7, .project-description-8, .project-description-9 {
-        padding: 0;
     }
 }

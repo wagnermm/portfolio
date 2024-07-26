@@ -4,58 +4,53 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Projects.css';
 import LogoConfectonery from '../Images/brigadeiros.jpg';
-import Mario from '../Images/mario.gif';
+import Mario from '../Images/mario.jpg';
+import Sendio from '../Images/bg.jpg';
 import LogoBarberShop from '../Images/barber.jpg';
-import CalculatorImg from '../Images/calculator.gif';
+import CalculatorImg from '../Images/calculator.jpg';
 import PHlogo from '../Images/ph.jpg';
-import interactiveCard from '../Images/interactive-card.png';
 import { FaBootstrap, FaSass, FaHtml5 } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 
 
 const Projects = ()=> {
-    const [oneProject, setOneProject] = useState("project-description-1");
-    const openProjectOne = ()=> {
-        oneProject === 'project-description-1' ? setOneProject('project-description-1 project-visible') : setOneProject('project-description-1');
+
+    //Barbershop
+    const [barbershopProject, setBarbershopProject] = useState("project-description-3");
+    const openBarbershopProject = ()=> {
+        barbershopProject === 'project-description-3' ? setBarbershopProject('project-description-3 project-visible') : setBarbershopProject('project-description-3');
     };
-    const closeProjectOne = ()=> {
-        oneProject === 'project-visible' ? setOneProject('project-description-1 project-visible') : setOneProject('project-description-1');
+
+    //Sendio
+    const [projectSendio, setProjectSendio] = useState("project-description-4");
+    const openSendioProject = ()=> {
+        projectSendio === 'project-description-4' ? setProjectSendio('project-description-4 project-visible') : setProjectSendio('project-description-4');
     };
-    const [twoProject, setTwoProject] = useState("project-description-2");
-    const openProjectTwo = ()=> {
-        twoProject === 'project-description-2' ? setTwoProject('project-description-2 project-visible') : setTwoProject('project-description-2');
+
+    //Law Firm
+    const [lawFirmProject, setLawFirmProject] = useState("project-description-6");
+    const openLawFirmProject = ()=> {
+        lawFirmProject === 'project-description-6' ? setLawFirmProject('project-description-6 project-visible') : setLawFirmProject('project-description-6');
     };
-    const closeProjectTwo = ()=> {
-        twoProject === 'project-visible' ? setTwoProject('project-description-2 project-visible') : setTwoProject('project-description-2');
+
+    //Brigaderia
+    const [brigaderiaProject, setBrigaderiaProject] = useState("project-description-1");
+    const openBrigaderiaProject = ()=> {
+        brigaderiaProject === 'project-description-1' ? setBrigaderiaProject('project-description-1 project-visible') : setBrigaderiaProject('project-description-1');
     };
-    const [threeProject, setThreeProject] = useState("project-description-3");
-    const openProjectThree = ()=> {
-        threeProject === 'project-description-3' ? setThreeProject('project-description-3 project-visible') : setThreeProject('project-description-3');
+
+    //Mario Game
+    const [marioGameProject, setMarioGameProject] = useState("project-description-2");
+    const openMarioGameProject = ()=> {
+        marioGameProject === 'project-description-2' ? setMarioGameProject('project-description-2 project-visible') : setMarioGameProject('project-description-2');
     };
-    const closeProjectThree = ()=> {
-        threeProject === 'project-visible' ? setThreeProject('project-description-3 project-visible') : setThreeProject('project-description-3');
+
+    //Calculator
+    const [calculatorProject, setCalculatorProject] = useState("project-description-7");
+    const openCalculatorProject = ()=> {
+        calculatorProject === 'project-description-7' ? setCalculatorProject('project-description-7 project-visible') : setCalculatorProject('project-description-7');
     };
-    const [fourProject, setFourProject] = useState("project-description-4");
-    const openProjectFour = ()=> {
-        fourProject === 'project-description-4' ? setFourProject('project-description-4 project-visible') : setFourProject('project-description-4');
-    };
-    const closeProjectFour = ()=> {
-        fourProject === 'project-visible' ? setFourProject('project-description-4 project-visible') : setFourProject('project-description-4');
-    };
-    const [sixProject, setSixProject] = useState("project-description-6");
-    const openProjectSix = ()=> {
-        sixProject === 'project-description-6' ? setSixProject('project-description-6 project-visible') : setSixProject('project-description-6');
-    };
-    const closeProjectSix = ()=> {
-        sixProject === 'project-visible' ? setSixProject('project-description-6 project-visible') : setSixProject('project-description-6');
-    };
-    const [sevenProject, setSevenProject] = useState("project-description-7");
-    const openProjectSeven = ()=> {
-        sevenProject === 'project-description-7' ? setSevenProject('project-description-7 project-visible') : setSevenProject('project-description-7');
-    };
-    const closeProjectSeven = ()=> {
-        sevenProject === 'project-visible' ? setSevenProject('project-description-7 project-visible') : setSevenProject('project-description-7');
-    };
+
     return(
         <div className='projects' id='projects'>
             <div className="project-header">
@@ -66,71 +61,13 @@ const Projects = ()=> {
                     <div className="project-body">
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Brigaderia</h3>
-                            </div>
-                            <div className="project-image">
-                                <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
-                            </div>
-                            <div className={oneProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectOne} className="closeProject">X</div>
-                                </div>
-                                <p>Brigaderia desenvolvida com bootstrap, explorando algumas de suas ferramentas como modal, slide carousel, components e forms.</p>
-                                <div className="project-tecnology">
-                                    <div className="bootstrap-icon">
-                                        <FaBootstrap/>
-                                    </div>
-                                    <div className="sass-icon">
-                                        <FaSass/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectOne} className="btn-project">Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/brigadeiros-paes" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                        <div className="project-content">
-                            <div className="project-name">
-                                <h3>Mario Jump</h3>
-                            </div>
-                            <div className="project-image">
-                                <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
-                            </div>
-                            <div className={twoProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectTwo} className="closeProject">X</div>
-                                </div>
-                                <p>Jogo do Mario desenvolvido em javascript. Com funções e keyframes é possivel manipular o personagem clicando na tela. Se o Mario não pular sobre o obstáculo, a animação se encerrará.</p>
-                                <div className="project-tecnology">
-                                    <div className="css-icon">
-                                        <IoLogoCss3/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectTwo} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/mario-game" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                        <div className="project-content">
-                            <div className="project-name">
                                 <h3>Fio da navalha</h3>
                             </div>
                             <div className="project-image">
                                 <a href="https://wagnermm.github.io/barbershop/" target='blank'><img src={LogoBarberShop} alt="logo-barbearia"/></a>
                             </div>
-                            <div className={threeProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectThree} className="closeProject">X</div>
-                                </div>
-                                <p>Uma barbearia, desenvolvida com html, css e javascript. Nesse projeto utilizei um plugin jQuery para exibir os cortes e um formulário para os clientes agendarem um horário.</p>
+                            <div className={barbershopProject}>
+                                <p>Um site de barbearia desenvolvida com JavaScript além de um plugin jQuery para exibir os cortes e o gerador de formulário icoginito forms para registrar os clientes. O site é responsivo e com um visual atraente.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -144,32 +81,25 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectThree} className='btn-project'>Descrição</button>
+                                <button onClick={openBarbershopProject} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/barbershop" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
-                    </div> 
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="project-body">
                         <div className="project-content">
                             <div className="project-name">
-                                <h3>Calculadora</h3>
+                                <h3>Sendio</h3>
                             </div>
-                            <div className="project-image">
-                                <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
+                            <div className="project-image sendio">
+                                <a href="https://www.sendio.com.br/" target='blank'><img src={Sendio} alt="sendio"/></a>
                             </div>
-                            <div className={fourProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectFour} className="closeProject">X</div>
-                                </div>
-                                <p>Uma calculadora criada para aprimorar meus conhecimentos de funções e variáveis. A calculadora executa as quatro operações básicas usando javascript, html5 e css3.</p>
+                            <div className={projectSendio}>
+                                <p>Foi um desafio empolgante e satisfatório trabalhar no site da empresa Sendio. Utilizando ferramentas como FileZilla e desenvolvido com JavaScript, o site é funcional, responsivo e oferece uma série de informações sobre os produtos.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
                                     </div>
-                                    <div className="css-icon">
-                                        <IoLogoCss3/>
+                                    <div className="bootstrap-icon">
+                                        <FaBootstrap/>
                                     </div>
                                     <div className="js-icon">
                                         <IoLogoJavascript/>
@@ -177,37 +107,8 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectFour} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/calculator-js" target='blank'>Ver Código</a></button>
-                            </div>
-                        </div>
-                        <div className="project-content">
-                            <div className="project-name">
-                                <h3>Interactive Card</h3>
-                            </div>
-                            <div className="project-image">
-                                <a href="https://wagnermm.github.io/interactive-card/" target='blank'><img src={interactiveCard} alt="interactive card"/></a>
-                            </div>
-                            <div className={sevenProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectSeven} className="closeProject">X</div>
-                                </div>
-                                <p>O cartão virtual interage com o usuário que pode ver o preenchimento automático na tela. Não há back-end para salvar os dados, esta aplicação somente exibe a interfácie e valida os campos de entrada.</p>
-                                <div className="project-tecnology">
-                                    <div className="html-logo">
-                                        <FaHtml5/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
-                                    </div>
-                                    <div className="css-icon">
-                                        <IoLogoCss3/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="project-link">
-                                <button onClick={openProjectSeven} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/interactive-card" target='blank'>Ver Código</a></button>
+                                <button onClick={openSendioProject} className='btn-project'>Descrição</button>
+                                <button className='btn-code text-light'>Ver Código</button>
                             </div>
                         </div>
                         <div className="project-content">
@@ -215,12 +116,9 @@ const Projects = ()=> {
                                 <h3>Advocacia</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="phLogo"/></a>
+                                <a href="https://wagnermm.github.io/law-firm/" target='blank'><img src={PHlogo} alt="law firm Logo"/></a>
                             </div>
-                            <div className={sixProject}>
-                                <div className="closeDetail">
-                                    <div onClick={closeProjectSix} className="closeProject">X</div>
-                                </div>
+                            <div className={lawFirmProject}>
                                 <p>Web page inspirada na série Suits, nesse projeto pude aprimorar alguns conceitos em javascript, utilizando um slide com informações no banner principal, além da responsividade e a utilização de favicon.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
@@ -235,16 +133,95 @@ const Projects = ()=> {
                                 </div>
                             </div>
                             <div className="project-link">
-                                <button onClick={openProjectSix} className='btn-project'>Descrição</button>
+                                <button onClick={openLawFirmProject} className='btn-project'>Descrição</button>
                                 <button className='btn-code'><a href="https://github.com/wagnermm/law-firm" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
                     </div> 
                 </Carousel.Item>
+                <Carousel.Item>
+                    <div className="project-body">
+                        <div className="project-content">
+                            <div className="project-name">
+                                <h3>Brigaderia</h3>
+                            </div>
+                            <div className="project-image">
+                                <a href="https://wagnermm.github.io/brigadeiros-paes/" target='blank'><img src={LogoConfectonery} alt="logo-confeitaria"/></a>
+                            </div>
+                            <div className={brigaderiaProject}>
+                                <p>Site de brigaderia desenvolvida com bootstrap, explorando algumas de suas ferramentas como modal, slide carousel, components e forms.</p>
+                                <div className="project-tecnology">
+                                    <div className="bootstrap-icon">
+                                        <FaBootstrap/>
+                                    </div>
+                                    <div className="sass-icon">
+                                        <FaSass/>
+                                    </div>
+                                    <div className="js-icon">
+                                        <IoLogoJavascript/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="project-link">
+                                <button onClick={openBrigaderiaProject} className="btn-project">Descrição</button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/brigadeiros-paes" target='blank'>Ver Código</a></button>
+                            </div>
+                        </div>
+                        <div className="project-content">
+                            <div className="project-name">
+                                <h3>Mario game</h3>
+                            </div>
+                            <div className="project-image">
+                                <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
+                            </div>
+                            <div className={marioGameProject}>
+                                <p>Jogo do Mario desenvolvido com JavaScript e animações CSS, onde o jogador deverá clicar na tela para o Mario pular sobre o obstáculo e evitar que o jogo termine.</p>
+                                <div className="project-tecnology">
+                                    <div className="html-logo">
+                                        <FaHtml5/>
+                                    </div>
+                                    <div className="css-icon">
+                                        <IoLogoCss3/>
+                                    </div>
+                                    <div className="js-icon">
+                                        <IoLogoJavascript/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="project-link">
+                                <button onClick={openMarioGameProject} className='btn-project'>Descrição</button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/mario-game" target='blank'>Ver Código</a></button>
+                            </div>
+                        </div>
+                        <div className="project-content">
+                            <div className="project-name">
+                                <h3>Calculadora</h3>
+                            </div>
+                            <div className="project-image">
+                                <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
+                            </div>
+                            <div className={calculatorProject}>
+                                <p>Uma calculadora criada para aprimorar meus conhecimentos de funções e variáveis. A calculadora executa as quatro operações básicas usando JavaScript.</p>
+                                <div className="project-tecnology">
+                                    <div className="html-logo">
+                                        <FaHtml5/>
+                                    </div>
+                                    <div className="css-icon">
+                                        <IoLogoCss3/>
+                                    </div>
+                                    <div className="js-icon">
+                                        <IoLogoJavascript/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="project-link">
+                                <button onClick={openCalculatorProject} className='btn-project'>Descrição</button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/calculator-js" target='blank'>Ver Código</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
             </Carousel>
-            <div className="top">
-                <a href="#top">Voltar ao topo</a>
-            </div>
         </div>
     )
 };
