@@ -9,7 +9,7 @@ import Sendio from '../Images/bg.jpg';
 import LogoBarberShop from '../Images/barber.jpg';
 import CalculatorImg from '../Images/calculator.jpg';
 import PHlogo from '../Images/ph.jpg';
-import { FaBootstrap, FaSass, FaHtml5 } from 'react-icons/fa';
+import { FaBootstrap, FaSass, FaHtml5, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 
 
@@ -172,10 +172,10 @@ const Projects = ()=> {
                                 <h3>Mario game</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/mario-game/" target='blank'><img src={Mario} alt="mario"/></a>
+                                <a href="https://wagnermm.github.io/mario-jump/" target='blank'><img src={Mario} alt="mario"/></a>
                             </div>
                             <div className={marioGameProject}>
-                                <p>Jogo do Mario desenvolvido com JavaScript e animações CSS, onde o jogador deverá clicar na tela para o Mario pular sobre o obstáculo e evitar que o jogo termine.</p>
+                                <p>Jogo do Mario desenvolvido com JavaScript e animações CSS. O jogador deverá clicar na tela para o Mario pular sobre o obstáculo e tentar chagar ao final do jogo.</p>
                                 <div className="project-tecnology">
                                     <div className="html-logo">
                                         <FaHtml5/>
@@ -190,7 +190,7 @@ const Projects = ()=> {
                             </div>
                             <div className="project-link">
                                 <button onClick={openMarioGameProject} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/mario-game" target='blank'>Ver Código</a></button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/mario-jump" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
                         <div className="project-content">
@@ -198,25 +198,22 @@ const Projects = ()=> {
                                 <h3>Calculadora</h3>
                             </div>
                             <div className="project-image">
-                                <a href="https://wagnermm.github.io/calculator-js/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
+                                <a href="https://wagnermm.github.io/calculator-react/" target='blank'><img src={CalculatorImg} alt="calculadora"/></a>
                             </div>
                             <div className={calculatorProject}>
-                                <p>Uma calculadora criada para aprimorar meus conhecimentos de funções e variáveis. A calculadora executa as quatro operações básicas usando JavaScript.</p>
+                                <p>Uma calculadora desenvolvida em React, com intuito de praticar mais a biblioteca. A calculadora é simples e executa apenas as quatro operações básicas.</p>
                                 <div className="project-tecnology">
-                                    <div className="html-logo">
-                                        <FaHtml5/>
+                                    <div className="react-logo">
+                                        <FaReact />
                                     </div>
                                     <div className="css-icon">
                                         <IoLogoCss3/>
-                                    </div>
-                                    <div className="js-icon">
-                                        <IoLogoJavascript/>
                                     </div>
                                 </div>
                             </div>
                             <div className="project-link">
                                 <button onClick={openCalculatorProject} className='btn-project'>Descrição</button>
-                                <button className='btn-code'><a href="https://github.com/wagnermm/calculator-js" target='blank'>Ver Código</a></button>
+                                <button className='btn-code'><a href="https://github.com/wagnermm/calculator-react" target='blank'>Ver Código</a></button>
                             </div>
                         </div>
                     </div>
