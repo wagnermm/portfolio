@@ -108,7 +108,7 @@ const Projects = ()=> {
                             </div>
                             <div className="project-link">
                                 <button onClick={openSendioProject} className='btn-project'>Descrição</button>
-                                <button className='btn-code text-light'>Ver Código</button>
+                                <button className='btn-code text-light disabled'>Ver Código</button>
                             </div>
                         </div>
                         <div className="project-content">

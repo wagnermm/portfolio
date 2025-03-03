@@ -19,7 +19,7 @@ const About =()=> {
                     </div>
                     <div className="aboutText">
                         <p>
-                            Sou desenvolvedor front-end e trabalho com React tendo experiência na criação de interfaces de usuário dinâmicas e responsivas. Apaixonado por tecnologia e inovação, tenho uma forte habilidade em transformar designs complexos em componentes reutilizáveis e eficientes. Meu objetivo é sempre criar experiências de usuário intuitivas e funcionais.
+                            Sou desenvolvedor front-end formado em análise e desenvolvimento de sistemas, meu foco é em React e tenho experiência na criação de interfaces de usuário dinâmicas e responsivas. Apaixonado por tecnologia e inovação, tenho uma forte habilidade em transformar designs complexos em componentes reutilizáveis e eficientes. Meu objetivo é sempre criar experiências de usuário intuitivas e funcionais.
                         </p>
                     </div>
                 </div>

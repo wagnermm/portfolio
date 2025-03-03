@@ -201,6 +201,10 @@
 .btn-code:hover {
     background: #09413c;
 }
+.disabled:hover {
+    background: #10978c;
+    cursor: auto;
+}
 @media (max-width: 480px) {
     .project-title {
         font-size: 1.5rem;
